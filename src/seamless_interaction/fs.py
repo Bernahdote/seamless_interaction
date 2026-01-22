@@ -187,6 +187,71 @@ class SeamlessInteractionFS:
             logger.warning(f"Could not load filelist: {e}")
             self._cached_filelist = pd.DataFrame()
 
+    def _get_local_paths_for_file_id(self, file_id: str, local_dir: str) -> list[str]:
+        """Get local paths for all modalities of a file ID in a given local_dir."""
+        if self._cached_filelist is None:
+            self._load_filelist_cache()
+
+        file_entry = self._cached_filelist[self._cached_filelist["file_id"] == file_id]
+        if file_entry.empty:
+            raise ValueError(f"File ID {file_id} not found in dataset")
+
+        label, split, batch_idx, archive_idx = file_entry.iloc[0][
+            ["label", "split", "batch_idx", "archive_idx"]
+        ]
+
+        base_path = os.path.join(
+            local_dir,
+            label,
+            split,
+            f"{batch_idx:04d}",
+            f"{archive_idx:04d}",
+        )
+        return glob.glob(os.path.join(base_path, f"{file_id}*"))
+
+    def _ensure_interaction_symlinks_for_file_id(
+        self, file_id: str, local_dir: str
+    ) -> None:
+        """Create symlinks under by_interaction/<interaction_key>/ for a file ID."""
+        try:
+            interaction_key = InteractionKey.from_file_id(file_id).interaction_key
+        except ValueError as e:
+            logger.warning(f"Skipping symlink for invalid file_id {file_id}: {e}")
+            return
+
+        target_dir = os.path.join(local_dir, "by_interaction", interaction_key)
+        os.makedirs(target_dir, exist_ok=True)
+
+        for src_path in self._get_local_paths_for_file_id(file_id, local_dir):
+            dst_path = os.path.join(target_dir, os.path.basename(src_path))
+            if os.path.exists(dst_path):
+                continue
+            try:
+                rel_src = os.path.relpath(src_path, target_dir)
+                os.symlink(rel_src, dst_path)
+            except OSError as e:
+                logger.warning(f"Failed to create symlink for {src_path}: {e}")
+
+    def _get_file_ids_for_batch_archives(
+        self,
+        label: str,
+        split: str,
+        batch_idx: int,
+        archive_idxs: list[int],
+    ) -> list[str]:
+        """Return file IDs for a batch and list of archive indices."""
+        if self._cached_filelist is None:
+            self._load_filelist_cache()
+
+        df = self._cached_filelist
+        mask = (
+            (df["label"] == label)
+            & (df["split"] == split)
+            & (df["batch_idx"] == batch_idx)
+            & (df["archive_idx"].isin(archive_idxs))
+        )
+        return df.loc[mask, "file_id"].tolist()
+
     @property
     def num_workers(self) -> int:
         return self.config.num_workers or 0
@@ -778,6 +843,7 @@ class SeamlessInteractionFS:
             logger.info(f"Saved {len(sorted_np_data)} numpy arrays to {npz_file_path}")
 
         logger.info(f"Successfully processed file {file_id} to {target_path}")
+        self._ensure_interaction_symlinks_for_file_id(file_id, local_dir)
 
     def download_batch_from_s3(
         self,
@@ -919,6 +985,13 @@ class SeamlessInteractionFS:
             if not batch_success:
                 logger.error(f"Some downloads failed for batch {batch}")
                 success = False
+            else:
+                successful_archives = [a for a, r in zip(archives, results) if r[0]]
+                file_ids = self._get_file_ids_for_batch_archives(
+                    label, split, batch, successful_archives
+                )
+                for file_id in file_ids:
+                    self._ensure_interaction_symlinks_for_file_id(file_id, local_dir)
 
         return success
 
