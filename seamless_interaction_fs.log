@@ -1,0 +1,36 @@
+2026-01-22 13:29:54,778 - INFO - Loaded filelist with 129370 entries
+2026-01-22 13:29:54,795 - INFO - Downloading batch of 2 files
+2026-01-22 13:29:54,798 - INFO - Found 50 files for V00_S2022_I00001199_P1275A
+2026-01-22 13:30:09,809 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S2022_I00001199_P1275A.npy
+2026-01-22 13:30:10,206 - INFO - Skipping optional file annotations/1P-IS/V00_S2022_I00001199_P1275A.json
+2026-01-22 13:30:10,347 - INFO - Skipping optional file annotations/3P-R/V00_S2022_I00001199_P1275A.json
+2026-01-22 13:30:10,972 - INFO - Skipping optional file annotations/1P-R/V00_S2022_I00001199_P1275A.json
+2026-01-22 13:30:11,047 - INFO - Skipping optional file annotations/3P-V/V00_S2022_I00001199_P1275A.json
+2026-01-22 13:30:11,630 - INFO - Skipping optional file annotations/3P-IS/V00_S2022_I00001199_P1275A.json
+2026-01-22 13:30:11,826 - INFO - Skipping optional file movement_v4/is_occluded/V00_S2022_I00001199_P1275A.npy
+2026-01-22 13:30:12,154 - INFO - Saved 39 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0012/V00_S2022_I00001199_P1275A.npz
+2026-01-22 13:30:12,154 - INFO - Successfully processed file V00_S2022_I00001199_P1275A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0012
+2026-01-22 13:30:12,169 - INFO - Found 50 files for V00_S2022_I00001199_P1277A
+2026-01-22 13:30:24,681 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S2022_I00001199_P1277A.npy
+2026-01-22 13:30:25,002 - INFO - Skipping optional file annotations/1P-IS/V00_S2022_I00001199_P1277A.json
+2026-01-22 13:30:25,214 - INFO - Skipping optional file annotations/3P-R/V00_S2022_I00001199_P1277A.json
+2026-01-22 13:30:25,712 - INFO - Skipping optional file annotations/1P-R/V00_S2022_I00001199_P1277A.json
+2026-01-22 13:30:25,814 - INFO - Skipping optional file annotations/3P-V/V00_S2022_I00001199_P1277A.json
+2026-01-22 13:30:26,370 - INFO - Skipping optional file annotations/3P-IS/V00_S2022_I00001199_P1277A.json
+2026-01-22 13:30:26,708 - INFO - Skipping optional file movement_v4/is_occluded/V00_S2022_I00001199_P1277A.npy
+2026-01-22 13:30:27,028 - INFO - Saved 39 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0012/V00_S2022_I00001199_P1277A.npz
+2026-01-22 13:30:27,028 - INFO - Successfully processed file V00_S2022_I00001199_P1277A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0012
+2026-01-22 13:30:27,034 - INFO - Completed downloading batch of 2 files
+2026-01-27 09:40:28,373 - ERROR - Failed to create local directory: [Errno 30] Read-only file system: '/mnt'
+2026-01-27 09:44:00,724 - INFO - Loaded filelist with 129370 entries
+2026-01-27 09:44:00,725 - INFO - Downloading 1 archives for batch 0
+2026-01-27 09:44:01,938 - INFO - Downloading improvised/dev/0000/0000.tar to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0000.tar
+2026-01-27 09:44:02,320 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/facebook/seamless-interaction/resolve/main/improvised/dev/0000/0000.tar "HTTP/1.1 302 Found"
+2026-01-27 09:44:02,739 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/facebook/seamless-interaction/xet-read-token/ba9e212ab927ba05bfd80778f53bf9de69f65e3b "HTTP/1.1 200 OK"
+2026-01-27 09:44:54,802 - INFO - Archive already extracted: /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0000
+2026-01-27 09:47:20,811 - INFO - Loaded filelist with 129370 entries
+2026-01-27 09:47:20,811 - INFO - Downloading 1 archives for batch 0
+2026-01-27 09:47:21,381 - INFO - Downloading improvised/dev/0000/0000.tar to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0000.tar
+2026-01-27 09:47:21,679 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/facebook/seamless-interaction/resolve/main/improvised/dev/0000/0000.tar "HTTP/1.1 302 Found"
+2026-01-27 09:47:21,871 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/facebook/seamless-interaction/xet-read-token/ba9e212ab927ba05bfd80778f53bf9de69f65e3b "HTTP/1.1 200 OK"
+2026-01-27 09:48:18,563 - INFO - Extracting /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0000.tar to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0000

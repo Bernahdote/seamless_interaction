@@ -50,7 +50,8 @@ class DatasetConfig:
         if self.num_workers is None:
             self.num_workers = min(10, max(1, os.cpu_count() - 2))
         if self.local_dir is None:
-            self.local_dir = str(Path.home() / "datasets/seamless_interaction")
+            #self.local_dir = str(Path.home() / "datasets" / "seamless_interaction") # WB -- for mac 
+            self.local_dir = "/mnt/sda/willem/datasets/seamless_interaction" #WB -- for Linux 
 
 
 @dataclass
@@ -208,29 +209,6 @@ class SeamlessInteractionFS:
             f"{archive_idx:04d}",
         )
         return glob.glob(os.path.join(base_path, f"{file_id}*"))
-
-    def _ensure_interaction_symlinks_for_file_id(
-        self, file_id: str, local_dir: str
-    ) -> None:
-        """Create symlinks under by_interaction/<interaction_key>/ for a file ID."""
-        try:
-            interaction_key = InteractionKey.from_file_id(file_id).interaction_key
-        except ValueError as e:
-            logger.warning(f"Skipping symlink for invalid file_id {file_id}: {e}")
-            return
-
-        target_dir = os.path.join(local_dir, "by_interaction", interaction_key)
-        os.makedirs(target_dir, exist_ok=True)
-
-        for src_path in self._get_local_paths_for_file_id(file_id, local_dir):
-            dst_path = os.path.join(target_dir, os.path.basename(src_path))
-            if os.path.exists(dst_path):
-                continue
-            try:
-                rel_src = os.path.relpath(src_path, target_dir)
-                os.symlink(rel_src, dst_path)
-            except OSError as e:
-                logger.warning(f"Failed to create symlink for {src_path}: {e}")
 
     def _get_file_ids_for_batch_archives(
         self,
@@ -843,7 +821,6 @@ class SeamlessInteractionFS:
             logger.info(f"Saved {len(sorted_np_data)} numpy arrays to {npz_file_path}")
 
         logger.info(f"Successfully processed file {file_id} to {target_path}")
-        self._ensure_interaction_symlinks_for_file_id(file_id, local_dir)
 
     def download_batch_from_s3(
         self,
@@ -990,9 +967,6 @@ class SeamlessInteractionFS:
                 file_ids = self._get_file_ids_for_batch_archives(
                     label, split, batch, successful_archives
                 )
-                for file_id in file_ids:
-                    self._ensure_interaction_symlinks_for_file_id(file_id, local_dir)
-
         return success
 
     def _wget_download_from_s3(
