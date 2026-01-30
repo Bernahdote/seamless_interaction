@@ -45,11 +45,12 @@ def download_multiple_batches():
     fs = SeamlessInteractionFS(config=config)
 
     # Download first 3 batches of training data (~150GB+)
-    for batch_idx in range(3):
+    # Updated: Download 15 batches --> 750GB+ of data and thus 100hours+ of speech  
+    for batch_idx in range(15):
         fs.download_batch_from_hf(batch_idx=batch_idx)
         print(f"✅ Downloaded batch {batch_idx}")
 
-    print("✅ Downloaded multiple batches (~150GB+)")
+    print("✅ Downloaded multiple batches (~750GB+)")
 
 
 def download_different_splits():
