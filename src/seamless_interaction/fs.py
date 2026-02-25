@@ -51,7 +51,8 @@ class DatasetConfig:
             self.num_workers = min(10, max(1, os.cpu_count() - 2))
         if self.local_dir is None:
             #self.local_dir = str(Path.home() / "datasets" / "seamless_interaction") # WB -- for mac 
-            self.local_dir = "/mnt/sda/willem/datasets/seamless_interaction" #WB -- for Linux 
+            #self.local_dir = "/mnt/sda/willem/datasets/seamless_interaction" #WB -- for remote1
+            self.local_dir = "/home/willem/datasets/seamless_interaction" # WB -- for remote2
 
 
 @dataclass
@@ -892,7 +893,8 @@ class SeamlessInteractionFS:
                 logger.info(f"Extracting {local_tar_path} to {extract_dir}")
                 try:
                     with tarfile.open(local_tar_path, "r") as tar:
-                        tar.extractall(extract_dir)
+                        members = [m for m in tar.getmembers() if not m.name.endswith(".mp4")] # Patch to skip MP4 files! 
+                        tar.extractall(extract_dir, members=members)
                     # remove the tar file
                     os.remove(local_tar_path)
                     return True, extract_dir

@@ -162,8 +162,8 @@ def main():
     print("   Session key: V00_S0809")
 
     # Uncomment desired download scenario:
-    #download_single_example()  # Auto-samples if no file_id provided
-    # download_single_example("V01_S0223_I00000127_P1505")  # Specific file
+    # download_single_example()  # Auto-samples if no file_id provided
+    # download_single_example("V00_S0692_I00000488_P0845")  # Specific file
     download_interaction_pair()  # Auto-samples interaction pairs
     # download_interaction_pair("V00_S0809_I00000582")  # Specific interaction
     # download_samples_1gb()  # Auto-samples 10 diverse files

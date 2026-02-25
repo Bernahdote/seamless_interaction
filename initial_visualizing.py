@@ -1,110 +1,92 @@
 import numpy as np
-import json 
-import pandas as pd
 from pathlib import Path
 import matplotlib.pyplot as plt
-import soundfile as sf
+
+base = Path.home() / "datasets" / "seamless_interaction" / "improvised" / "dev" / "0000"
+path_data1 = base / "0018" / "V00_S0696_I00000544_P0844A.npz"
+
+path_data2 = base / "0021" / "V00_S0692_I00000535_P0844A.npz"
+fps = 30.0
+
+data = np.load(path_data2, allow_pickle=False)
+
+gaze_key = "movement_v4:gaze_encodings"
+head_key = "movement_v4:alignment_head_rotation"
+
+if gaze_key not in data.files or head_key not in data.files:
+    raise KeyError(
+        f"Required movement_v4 keys not found. Missing: "
+        f"{[k for k in [gaze_key, head_key] if k not in data.files]}"
+    )
+
+gaze = data[gaze_key]  # (N, 2): pitch, yaw
+head = data[head_key]  # (N, 3): pitch, yaw, roll
+gaze_deg = np.degrees(gaze)
+head_deg = np.degrees(head)
+combined_pitch_deg = head_deg[:, 0] + gaze_deg[:, 0]
+combined_yaw_deg = head_deg[:, 1] + gaze_deg[:, 1]
+
+t = np.arange(gaze_deg.shape[0]) / fps
+pitch_min, pitch_max = gaze_deg[:, 0].min(), gaze_deg[:, 0].max()
+yaw_min, yaw_max = gaze_deg[:, 1].min(), gaze_deg[:, 1].max()
+head_pitch_min, head_pitch_max = head_deg[:, 0].min(), head_deg[:, 0].max()
+head_yaw_min, head_yaw_max = head_deg[:, 1].min(), head_deg[:, 1].max()
+
+print(f"Gaze key: {gaze_key}")
+print(f"Gaze shape: {gaze_deg.shape}")
+print(f"Pitch range (deg): {pitch_min:.2f} to {pitch_max:.2f}")
+print(f"Yaw range (deg):   {yaw_min:.2f} to {yaw_max:.2f}")
+print(f"Head key: {head_key}")
+print(f"Head shape: {head_deg.shape}")
+print(f"Head pitch range (deg): {head_pitch_min:.2f} to {head_pitch_max:.2f}")
+print(f"Head yaw range (deg):   {head_yaw_min:.2f} to {head_yaw_max:.2f}")
+
+# Correlation between gaze and aligned head rotation (using raw values).
+print(f"corr(gaze_pitch, head_pitch): {np.corrcoef(gaze[:, 0], head[:, 0])[0, 1]:.3f}")
+print(f"corr(gaze_yaw, head_yaw):     {np.corrcoef(gaze[:, 1], head[:, 1])[0, 1]:.3f}")
+print(f"corr(gaze_pitch, head_yaw):   {np.corrcoef(gaze[:, 0], head[:, 1])[0, 1]:.3f}")
+print(f"corr(gaze_yaw, head_pitch):   {np.corrcoef(gaze[:, 1], head[:, 0])[0, 1]:.3f}")
 
 
-base = Path.home()/"datasets"/"seamless_interaction"
 
-path_data = base /"by_interaction"/"V00_S2022_I00001199/V00_S2022_I00001199_P1275A.npz"
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 8), sharex=True)
 
-path_json1 = base /"by_interaction"/"V00_S2022_I00001199/V00_S2022_I00001199_P1275A.json"
-path_wav1 = base /"by_interaction"/"V00_S2022_I00001199/V00_S2022_I00001199_P1275A.wav"
+ax1.plot(t, gaze_deg[:, 0], label="pitch (deg)")
+ax1.plot(t, gaze_deg[:, 1], label="yaw (deg)")
+ax1.set_title("Eye Gaze (Degrees)")
+ax1.set_ylabel("Degrees")
+ax1.legend()
 
-path_json2 = base /"by_interaction"/"V00_S2022_I00001199/V00_S2022_I00001199_P1277A.json"
-path_wav2 = base /"by_interaction"/"V00_S2022_I00001199/V00_S2022_I00001199_P1277A.wav"
+ax2.plot(t, head_deg[:, 0], label="pitch (deg)")
+ax2.plot(t, head_deg[:, 1], label="yaw (deg)")
+ax2.set_title("Head Rotation (Degrees)")
+ax2.set_xlabel("Seconds")
+ax2.set_ylabel("Degrees")
+ax2.legend()
 
-
-
-# data = np.load(path_data)
-# print(data.files)
-
-# --- PART 1: EXPLORING VAD ---
-
-with open(path_json1, 'r') as f:
-    metadata1 = json.load(f)
-
-vad_intervals1 = metadata1["metadata:vad"]
-
-with open(path_json2, 'r') as f:
-    metadata2 = json.load(f)
-
-vad_intervals2 = metadata2["metadata:vad"]
-
-
-
-# Load audio file
-wave1, sr1 = sf.read(path_wav1)
-wave2, sr2 = sf.read(path_wav2)
-
-
-vad1 = np.zeros(len(wave1), dtype=np.float32)
-vad2 = np.zeros(len(wave2), dtype=np.float32)
-
-for seg in vad_intervals1:
-    s = int(seg["start"]*sr1)
-    e  = int(seg["end"] *sr1)
-    vad1[s:e] = 1
-
-for seg in vad_intervals2:
-    s = int(seg["start"]*sr2)
-    e  = int(seg["end"] * sr2)
-    vad2[s:e] = 1
-
-
-plt.figure() 
-
-plt.subplot(2,1,1)
-t_full1 = np.arange(len(wave1)) / sr1
-idx1 = np.flatnonzero(vad1 == 1)
-t1 = idx1 / sr1
-plt.scatter(t1, np.ones_like(t1), s=2, color="orange")
-plt.plot(t_full1, wave1, color="blue", alpha=0.5)
-
-plt.subplot(2,1,2)
-t_full2 = np.arange(len(wave2)) / sr2
-idx2 = np.flatnonzero(vad2 == 1)
-t2 = idx2 / sr2
-plt.scatter(t2, np.ones_like(t2), s=2, color="green")
-plt.plot(t_full2, wave2, color="blue", alpha=0.5)
-
+plt.tight_layout()
 plt.show()
 
-
-
-
-# --- PART 2: EXPLORING OTHER DATA ---
-
-
-#data = np.load(path_data)
-# Primary interest 
-
-# gaze_enc = data["movement_v4:gaze_encodings"] #Neural encodings of gaze direction from computed blendshapes
-# head_enc = data["movement:head_encodings"] #Neural encodings of head position and rotation
-# body_pose = data["smplh:body_pose"] #Body pose parameters
-# lh_pose = data["smplh:left_hand_pose"] #Left hand pose parameters
-# rh_pose = data["smplh:right_hand_pose"] #Right hand pose parameters
-# mv_is_valid = data["movement_v4:is_valid"] #Indicates valid movement frames
-# smplh_is_valid = data["smplh:is_valid"] #Indicates valid SMPL-H frames
-
-# print(np.count_nonzero(mv_is_valid == 0))
-# print(np.count_nonzero(smplh_is_valid == 0)) 
-
-# print(np.max(gaze_enc[:, 0]), np.min(gaze_enc[:, 0]))  # Unnormalized 
-# print(np.max(gaze_enc[:, 1]), np.min(gaze_enc[:, 1])) 
-
-
-# print(gaze_enc.shape)
-# valid = (mv_is_valid != 0) & (smplh_is_valid != 0)
-# gaze_enc = gaze_enc[valid]
-
-# print(gaze_enc.shape)
-
-# mean = gaze_enc.mean(axis=0)   #Normalizing 
-# std  = gaze_enc.std(axis=0)
-# gaze_norm = (gaze_enc - mean) / std
-
-
-
+plt.figure(figsize=(12, 4))
+plt.plot(t, combined_pitch_deg, label="pitch (head + gaze)")
+plt.plot(t, combined_yaw_deg, label="yaw (head + gaze)")
+plt.axhline(
+    combined_pitch_deg.mean(),
+    linestyle="--",
+    linewidth=1,
+    alpha=0.8,
+    label=f"pitch mean ({combined_pitch_deg.mean():.2f})",
+)
+plt.axhline(
+    combined_yaw_deg.mean(),
+    linestyle="--",
+    linewidth=1,
+    alpha=0.8,
+    label=f"yaw mean ({combined_yaw_deg.mean():.2f})",
+)
+plt.title("Combined Rotation Approximation (Degrees)")
+plt.xlabel("Seconds")
+plt.ylabel("Degrees")
+plt.legend()
+plt.tight_layout()
+plt.show()

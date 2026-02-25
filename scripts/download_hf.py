@@ -46,7 +46,9 @@ def download_multiple_batches():
 
     # Download first 3 batches of training data (~150GB+)
     # Updated: Download 15 batches --> 750GB+ of data and thus 100hours+ of speech  
-    for batch_idx in range(15):
+    #for batch_idx in range(15):
+
+    for batch_idx in range(5):
         fs.download_batch_from_hf(batch_idx=batch_idx)
         print(f"✅ Downloaded batch {batch_idx}")
 

@@ -34,3 +34,1098 @@
 2026-01-27 09:47:21,679 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/facebook/seamless-interaction/resolve/main/improvised/dev/0000/0000.tar "HTTP/1.1 302 Found"
 2026-01-27 09:47:21,871 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/facebook/seamless-interaction/xet-read-token/ba9e212ab927ba05bfd80778f53bf9de69f65e3b "HTTP/1.1 200 OK"
 2026-01-27 09:48:18,563 - INFO - Extracting /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0000.tar to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0000
+2026-01-31 00:46:50,124 - INFO - Loaded filelist with 129370 entries
+2026-01-31 00:46:50,140 - INFO - Downloading batch of 2 files
+2026-01-31 00:46:50,144 - INFO - Found 50 files for V00_S0692_I00000488_P0845
+2026-01-31 00:47:03,224 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0692_I00000488_P0845.npy
+2026-01-31 00:47:04,565 - INFO - Skipping optional file annotations/1P-IS/V00_S0692_I00000488_P0845.json
+2026-01-31 00:47:05,219 - INFO - Skipping optional file annotations/3P-R/V00_S0692_I00000488_P0845.json
+2026-01-31 00:47:05,324 - INFO - Skipping optional file annotations/1P-R/V00_S0692_I00000488_P0845.json
+2026-01-31 00:47:05,942 - INFO - Skipping optional file annotations/3P-V/V00_S0692_I00000488_P0845.json
+2026-01-31 00:47:05,990 - INFO - Skipping optional file annotations/3P-IS/V00_S0692_I00000488_P0845.json
+2026-01-31 00:47:06,476 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0005/V00_S0692_I00000488_P0845.npz
+2026-01-31 00:47:06,476 - INFO - Successfully processed file V00_S0692_I00000488_P0845 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0005
+2026-01-31 00:47:06,498 - INFO - Found 50 files for V00_S0692_I00000488_P0844A
+2026-01-31 00:47:18,316 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0692_I00000488_P0844A.npy
+2026-01-31 00:47:20,336 - INFO - Skipping optional file annotations/1P-IS/V00_S0692_I00000488_P0844A.json
+2026-01-31 00:47:20,519 - INFO - Skipping optional file annotations/3P-R/V00_S0692_I00000488_P0844A.json
+2026-01-31 00:47:21,134 - INFO - Skipping optional file annotations/1P-R/V00_S0692_I00000488_P0844A.json
+2026-01-31 00:47:21,280 - INFO - Skipping optional file annotations/3P-V/V00_S0692_I00000488_P0844A.json
+2026-01-31 00:47:21,885 - INFO - Skipping optional file annotations/3P-IS/V00_S0692_I00000488_P0844A.json
+2026-01-31 00:47:22,350 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0019/V00_S0692_I00000488_P0844A.npz
+2026-01-31 00:47:22,351 - INFO - Successfully processed file V00_S0692_I00000488_P0844A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0019
+2026-01-31 00:47:22,351 - INFO - Completed downloading batch of 2 files
+2026-02-02 10:52:48,155 - INFO - Loaded filelist with 129370 entries
+2026-02-02 10:52:48,193 - INFO - Downloading batch of 2 files
+2026-02-02 10:52:48,198 - INFO - Found 50 files for V00_S0648_I00000371_P0801
+2026-02-02 10:52:50,735 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_valence/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,752 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/is_valid_box/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,770 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/FAUToken/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,787 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/audio/V00_S0648_I00000371_P0801.wav: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,801 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/right_hand_pose/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,818 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/EmotionValenceToken/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,818 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/video/V00_S0648_I00000371_P0801.mp4: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,818 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/global_orient/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,819 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/keypoints/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,819 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/frame_latent/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,826 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/translation/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,836 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/body_pose/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,838 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/EmotionArousalToken/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,843 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/FAUValue/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,843 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/expression/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,843 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/box/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,843 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/is_valid/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,860 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/left_hand_pose/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,887 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/gaze_encodings/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,929 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/alignment_translation/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,932 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/alignment_head_rotation/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,945 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/hypernet_features/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,949 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/head_encodings/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,963 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_arousal/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,968 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/is_valid/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:50,985 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_scores/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,004 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/head_encodings/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,005 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/gaze_encodings/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,022 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/expression/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,039 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/frame_latent/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,079 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_valence/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,088 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/alignment_head_rotation/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,104 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/alignment_translation/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,110 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_arousal/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,120 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_scores/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,128 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/FAUValue/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,131 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/FAUToken/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,145 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/hypernet_features/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,148 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/EmotionValenceToken/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,162 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/is_valid/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,168 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/EmotionArousalToken/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,179 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/pred_vertices/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,185 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/is_occluded/V00_S0648_I00000371_P0801.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,194 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/metadata/transcript/V00_S0648_I00000371_P0801.jsonl: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,211 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/metadata/vad/V00_S0648_I00000371_P0801.jsonl: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,211 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/1P-IS/V00_S0648_I00000371_P0801.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,241 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/1P-R/V00_S0648_I00000371_P0801.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,246 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-R/V00_S0648_I00000371_P0801.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,263 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-V/V00_S0648_I00000371_P0801.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,264 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-IS/V00_S0648_I00000371_P0801.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:51,338 - INFO - Successfully processed file V00_S0648_I00000371_P0801 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0020
+2026-02-02 10:52:51,344 - INFO - Found 50 files for V00_S0648_I00000371_P0299A
+2026-02-02 10:52:52,469 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/audio/V00_S0648_I00000371_P0299A.wav: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,519 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/video/V00_S0648_I00000371_P0299A.mp4: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,524 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/global_orient/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,550 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/body_pose/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,552 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/is_valid/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,571 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/left_hand_pose/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,572 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/right_hand_pose/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,620 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/is_valid_box/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,620 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/translation/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,639 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/box/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,639 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/keypoints/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,657 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_valence/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,669 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/EmotionArousalToken/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,680 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/EmotionValenceToken/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,697 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/FAUToken/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,702 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/expression/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,714 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/frame_latent/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,714 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/gaze_encodings/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,731 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/FAUValue/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,731 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/alignment_head_rotation/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,752 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/alignment_translation/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,753 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/head_encodings/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,778 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/hypernet_features/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,792 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/is_valid/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,793 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_arousal/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,809 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_scores/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,824 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/head_encodings/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,834 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/gaze_encodings/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,854 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/expression/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,868 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/alignment_head_rotation/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,869 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/frame_latent/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,884 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/alignment_translation/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,896 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_valence/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,901 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_scores/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,912 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_arousal/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,929 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/FAUValue/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,939 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/FAUToken/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,955 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/EmotionValenceToken/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,969 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/hypernet_features/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,969 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/EmotionArousalToken/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,986 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/is_valid/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:52,991 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/pred_vertices/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:53,004 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/is_occluded/V00_S0648_I00000371_P0299A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:53,006 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/metadata/transcript/V00_S0648_I00000371_P0299A.jsonl: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:53,029 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/metadata/vad/V00_S0648_I00000371_P0299A.jsonl: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:53,029 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/1P-IS/V00_S0648_I00000371_P0299A.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:53,047 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/1P-R/V00_S0648_I00000371_P0299A.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:53,056 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-R/V00_S0648_I00000371_P0299A.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:53,063 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-IS/V00_S0648_I00000371_P0299A.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:53,071 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-V/V00_S0648_I00000371_P0299A.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-02 10:52:53,136 - INFO - Successfully processed file V00_S0648_I00000371_P0299A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0046
+2026-02-02 10:52:53,137 - INFO - Completed downloading batch of 2 files
+2026-02-05 13:38:46,908 - INFO - Loaded filelist with 129370 entries
+2026-02-05 13:38:46,913 - INFO - Found 50 files for V00_S0692_I00000488_P0845
+2026-02-05 13:38:48,553 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/global_orient/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:48,597 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/right_hand_pose/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:48,597 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/is_valid_box/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:48,597 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/audio/V00_S0692_I00000488_P0845.wav: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:48,627 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_valence/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:48,647 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/FAUToken/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:48,696 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/is_valid/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:48,696 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/video/V00_S0692_I00000488_P0845.mp4: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:48,696 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/translation/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:48,696 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/keypoints/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:48,749 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/EmotionValenceToken/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:48,749 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/frame_latent/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:48,838 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/body_pose/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:48,838 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/left_hand_pose/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:48,838 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/EmotionArousalToken/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:48,838 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/expression/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:48,915 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/FAUValue/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:48,955 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/gaze_encodings/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:48,985 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/alignment_translation/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,017 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/alignment_head_rotation/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,031 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/is_valid/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,031 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/box/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,045 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/hypernet_features/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,075 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/head_encodings/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,122 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/gaze_encodings/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,146 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/alignment_head_rotation/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,146 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_arousal/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,276 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_scores/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,417 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/expression/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,417 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/alignment_translation/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,421 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_valence/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,461 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/head_encodings/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,586 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/frame_latent/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,586 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/FAUToken/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,587 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_arousal/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,588 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_scores/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,708 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/FAUValue/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,807 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/EmotionValenceToken/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,886 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/pred_vertices/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,925 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/EmotionArousalToken/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,987 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/1P-IS/V00_S0692_I00000488_P0845.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:49,988 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-R/V00_S0692_I00000488_P0845.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:50,003 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/metadata/transcript/V00_S0692_I00000488_P0845.jsonl: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:50,097 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-V/V00_S0692_I00000488_P0845.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:50,097 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/1P-R/V00_S0692_I00000488_P0845.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:50,097 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/metadata/vad/V00_S0692_I00000488_P0845.jsonl: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:50,143 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/hypernet_features/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:50,190 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-IS/V00_S0692_I00000488_P0845.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:50,233 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/is_valid/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:50,382 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/is_occluded/V00_S0692_I00000488_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:38:50,494 - INFO - Successfully processed file V00_S0692_I00000488_P0845 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0005
+2026-02-05 13:39:47,659 - INFO - Loaded filelist with 129370 entries
+2026-02-05 13:39:47,679 - INFO - Downloading batch of 2 files
+2026-02-05 13:39:47,683 - INFO - Found 50 files for V00_S0692_I00000575_P0844A
+2026-02-05 13:39:48,711 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/audio/V00_S0692_I00000575_P0844A.wav: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,720 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/global_orient/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,731 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/video/V00_S0692_I00000575_P0844A.mp4: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,732 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/right_hand_pose/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,740 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/is_valid/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,751 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/translation/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,752 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/body_pose/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,754 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/left_hand_pose/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,775 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/is_valid_box/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,776 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/box/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,794 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/keypoints/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,811 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_valence/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,812 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/EmotionArousalToken/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,823 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/EmotionValenceToken/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,843 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/FAUToken/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,846 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/expression/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,882 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/gaze_encodings/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,919 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/alignment_head_rotation/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,929 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/alignment_translation/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,934 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/is_valid/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,937 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/head_encodings/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,952 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/hypernet_features/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,952 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_scores/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,971 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/head_encodings/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,978 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/gaze_encodings/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:48,999 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/expression/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,004 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/alignment_head_rotation/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,020 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/frame_latent/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,041 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_arousal/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,067 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/alignment_translation/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,077 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_valence/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,086 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/frame_latent/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,127 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_arousal/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,128 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_scores/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,135 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/FAUToken/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,136 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/FAUValue/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,156 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/EmotionValenceToken/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,195 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/EmotionArousalToken/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,210 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/hypernet_features/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,221 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/pred_vertices/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,243 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/metadata/transcript/V00_S0692_I00000575_P0844A.jsonl: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,246 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/FAUValue/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,258 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/is_valid/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,260 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/1P-IS/V00_S0692_I00000575_P0844A.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,277 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/metadata/vad/V00_S0692_I00000575_P0844A.jsonl: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,280 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/is_occluded/V00_S0692_I00000575_P0844A.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,294 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-R/V00_S0692_I00000575_P0844A.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,308 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-V/V00_S0692_I00000575_P0844A.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,369 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/1P-R/V00_S0692_I00000575_P0844A.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,409 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-IS/V00_S0692_I00000575_P0844A.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:49,480 - INFO - Successfully processed file V00_S0692_I00000575_P0844A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0009
+2026-02-05 13:39:49,486 - INFO - Found 50 files for V00_S0692_I00000575_P0845
+2026-02-05 13:39:50,784 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/audio/V00_S0692_I00000575_P0845.wav: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:50,821 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/global_orient/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:50,844 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/is_valid/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:50,849 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/right_hand_pose/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:50,875 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/left_hand_pose/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:50,876 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/translation/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:50,892 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/box/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:50,893 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/video/V00_S0692_I00000575_P0845.mp4: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:50,919 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_valence/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:50,920 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/body_pose/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:50,946 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/FAUToken/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:50,961 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/frame_latent/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:50,975 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/FAUValue/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:50,986 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/alignment_translation/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:50,994 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/is_valid_box/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:50,998 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/gaze_encodings/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:50,999 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/hypernet_features/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,009 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/keypoints/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,013 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_arousal/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,021 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/EmotionArousalToken/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,033 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/alignment_head_rotation/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,042 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/is_valid/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,051 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/head_encodings/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,059 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_scores/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,063 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/gaze_encodings/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,080 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/head_encodings/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,083 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/expression/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,092 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/alignment_head_rotation/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,100 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/frame_latent/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,113 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/alignment_translation/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,132 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_scores/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,135 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_valence/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,150 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_arousal/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,166 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/FAUValue/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,171 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/EmotionValenceToken/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,194 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/hypernet_features/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,206 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/is_valid/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,231 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/is_occluded/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,236 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/pred_vertices/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,263 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/metadata/transcript/V00_S0692_I00000575_P0845.jsonl: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,263 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/1P-IS/V00_S0692_I00000575_P0845.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,278 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/1P-R/V00_S0692_I00000575_P0845.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,287 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/expression/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,298 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-IS/V00_S0692_I00000575_P0845.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,299 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-R/V00_S0692_I00000575_P0845.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,315 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-V/V00_S0692_I00000575_P0845.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,327 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/metadata/vad/V00_S0692_I00000575_P0845.jsonl: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,353 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/FAUToken/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,372 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/EmotionValenceToken/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,385 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/EmotionArousalToken/V00_S0692_I00000575_P0845.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:39:51,446 - INFO - Successfully processed file V00_S0692_I00000575_P0845 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0028
+2026-02-05 13:39:51,446 - INFO - Completed downloading batch of 2 files
+2026-02-05 13:40:13,177 - INFO - Loaded filelist with 129370 entries
+2026-02-05 13:40:13,194 - INFO - Downloading batch of 2 files
+2026-02-05 13:40:13,197 - INFO - Found 50 files for V01_S0172_I00001223_P1316
+2026-02-05 13:40:14,205 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/audio/V01_S0172_I00001223_P1316.wav: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,214 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/global_orient/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,219 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/video/V01_S0172_I00001223_P1316.mp4: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,235 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/right_hand_pose/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,236 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/is_valid/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,237 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/body_pose/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,251 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/translation/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,253 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/left_hand_pose/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,271 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/box/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,274 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/is_valid_box/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,285 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/keypoints/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,308 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_valence/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,324 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/EmotionValenceToken/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,350 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/expression/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,353 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/FAUToken/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,365 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/gaze_encodings/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,366 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/frame_latent/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,373 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/EmotionArousalToken/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,388 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/alignment_head_rotation/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,391 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/alignment_translation/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,399 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/head_encodings/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,428 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/hypernet_features/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,451 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_arousal/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,464 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/is_valid/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,495 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/gaze_encodings/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,512 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/expression/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,528 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/alignment_head_rotation/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,559 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/FAUValue/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,569 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_valence/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,582 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/frame_latent/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,584 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_arousal/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,599 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/FAUValue/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,614 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/FAUToken/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,630 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_scores/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,647 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/hypernet_features/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,652 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/head_encodings/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,661 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/is_valid/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,683 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/is_occluded/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,687 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/pred_vertices/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,704 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/metadata/transcript/V01_S0172_I00001223_P1316.jsonl: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,721 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/metadata/vad/V01_S0172_I00001223_P1316.jsonl: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,766 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-R/V01_S0172_I00001223_P1316.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,778 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-V/V01_S0172_I00001223_P1316.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,790 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/EmotionValenceToken/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,806 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/EmotionArousalToken/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,886 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/1P-IS/V01_S0172_I00001223_P1316.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,903 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/1P-R/V01_S0172_I00001223_P1316.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:14,940 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-IS/V01_S0172_I00001223_P1316.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:15,068 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/alignment_translation/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:15,086 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_scores/V01_S0172_I00001223_P1316.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:15,171 - INFO - Successfully processed file V01_S0172_I00001223_P1316 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0005
+2026-02-05 13:40:15,176 - INFO - Found 50 files for V01_S0172_I00001223_P1317
+2026-02-05 13:40:16,172 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/audio/V01_S0172_I00001223_P1317.wav: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,189 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/global_orient/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,205 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/right_hand_pose/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,209 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/is_valid/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,223 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/translation/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,226 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/left_hand_pose/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,246 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/is_valid_box/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,251 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/box/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,261 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/boxes_and_keypoints/keypoints/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,282 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_valence/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,285 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/EmotionArousalToken/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,293 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/video/V01_S0172_I00001223_P1317.mp4: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,298 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/EmotionValenceToken/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,314 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/FAUToken/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,316 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/expression/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,326 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/smplh/body_pose/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,328 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/gaze_encodings/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,345 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/alignment_head_rotation/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,359 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/alignment_translation/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,360 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/head_encodings/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,382 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/frame_latent/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,390 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/is_valid/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,394 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/FAUValue/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,405 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_scores/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,423 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/gaze_encodings/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,480 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/expression/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,498 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/head_encodings/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,499 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_valence/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,513 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_arousal/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,523 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/hypernet_features/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,531 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/FAUValue/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,531 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/FAUToken/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,542 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement/emotion_arousal/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,564 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/hypernet_features/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,584 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/is_valid/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,602 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/is_occluded/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,613 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/pred_vertices/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,630 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/metadata/transcript/V01_S0172_I00001223_P1317.jsonl: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,631 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/1P-IS/V01_S0172_I00001223_P1317.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,643 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/metadata/vad/V01_S0172_I00001223_P1317.jsonl: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,648 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/1P-R/V01_S0172_I00001223_P1317.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,668 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-IS/V01_S0172_I00001223_P1317.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,668 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-R/V01_S0172_I00001223_P1317.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,669 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/frame_latent/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,675 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/alignment_head_rotation/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,690 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/alignment_translation/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,707 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/emotion_scores/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,711 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/annotations/3P-V/V01_S0172_I00001223_P1317.json: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,739 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/EmotionValenceToken/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,754 - ERROR - Failed to download https://dl.fbaipublicfiles.com/seamless_interaction/improvised/dev/movement_v4/EmotionArousalToken/V01_S0172_I00001223_P1317.npy: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+2026-02-05 13:40:16,819 - INFO - Successfully processed file V01_S0172_I00001223_P1317 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0008
+2026-02-05 13:40:16,819 - INFO - Completed downloading batch of 2 files
+2026-02-05 13:44:24,441 - ERROR - Failed to create local directory: [Errno 30] Read-only file system: '/mnt'
+2026-02-05 13:45:21,494 - INFO - Loaded filelist with 129370 entries
+2026-02-05 13:45:21,512 - INFO - Downloading batch of 2 files
+2026-02-05 13:45:21,515 - INFO - Found 50 files for V01_S0172_I00001294_P1316
+2026-02-05 13:45:23,232 - INFO - Skipping optional file movement/emotion_valence/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:23,289 - INFO - Skipping optional file movement/FAUToken/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:23,815 - INFO - Skipping optional file movement/EmotionValenceToken/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:23,879 - INFO - Skipping optional file movement/frame_latent/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:24,479 - INFO - Skipping optional file movement/expression/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:24,526 - INFO - Skipping optional file movement/FAUValue/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:25,207 - INFO - Skipping optional file movement/gaze_encodings/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:25,368 - INFO - Skipping optional file movement/alignment_translation/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:25,985 - INFO - Skipping optional file movement/alignment_head_rotation/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:26,173 - INFO - Skipping optional file movement/hypernet_features/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:26,674 - INFO - Skipping optional file movement/head_encodings/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:26,875 - INFO - Skipping optional file movement/emotion_arousal/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:27,134 - INFO - Skipping optional file movement/is_valid/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:27,308 - INFO - Skipping optional file movement_v4/gaze_encodings/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:27,322 - INFO - Skipping optional file movement_v4/alignment_head_rotation/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:27,476 - INFO - Skipping optional file movement_v4/emotion_valence/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:27,660 - INFO - Skipping optional file movement/EmotionArousalToken/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:27,703 - INFO - Skipping optional file movement/emotion_scores/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:27,869 - INFO - Skipping optional file movement_v4/expression/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:27,925 - INFO - Skipping optional file movement_v4/alignment_translation/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:28,058 - INFO - Skipping optional file movement_v4/emotion_arousal/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:28,303 - INFO - Skipping optional file movement_v4/FAUToken/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:28,324 - INFO - Skipping optional file movement_v4/head_encodings/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:28,494 - INFO - Skipping optional file movement_v4/frame_latent/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:28,499 - INFO - Skipping optional file movement_v4/emotion_scores/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:28,636 - INFO - Skipping optional file movement_v4/FAUValue/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:28,904 - INFO - Skipping optional file movement_v4/EmotionValenceToken/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:28,950 - INFO - Skipping optional file movement_v4/hypernet_features/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:29,219 - INFO - Skipping optional file movement_v4/pred_vertices/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:29,245 - INFO - Skipping optional file annotations/1P-IS/V01_S0172_I00001294_P1316.json
+2026-02-05 13:45:29,337 - INFO - Skipping optional file annotations/3P-R/V01_S0172_I00001294_P1316.json
+2026-02-05 13:45:29,647 - INFO - Skipping optional file movement_v4/EmotionArousalToken/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:29,751 - INFO - Skipping optional file movement_v4/is_valid/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:30,008 - INFO - Skipping optional file annotations/1P-R/V01_S0172_I00001294_P1316.json
+2026-02-05 13:45:30,075 - INFO - Skipping optional file annotations/3P-V/V01_S0172_I00001294_P1316.json
+2026-02-05 13:45:30,521 - INFO - Skipping optional file movement_v4/is_occluded/V01_S0172_I00001294_P1316.npy
+2026-02-05 13:45:30,698 - INFO - Skipping optional file annotations/3P-IS/V01_S0172_I00001294_P1316.json
+2026-02-05 13:45:34,155 - INFO - Saved 9 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0020/V01_S0172_I00001294_P1316.npz
+2026-02-05 13:45:34,155 - INFO - Successfully processed file V01_S0172_I00001294_P1316 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0020
+2026-02-05 13:45:34,160 - INFO - Found 50 files for V01_S0172_I00001294_P1317
+2026-02-05 13:45:35,872 - INFO - Skipping optional file movement/emotion_valence/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:35,900 - INFO - Skipping optional file movement/FAUToken/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:36,494 - INFO - Skipping optional file movement/EmotionValenceToken/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:36,569 - INFO - Skipping optional file movement/frame_latent/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:37,196 - INFO - Skipping optional file movement/FAUValue/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:37,956 - INFO - Skipping optional file movement/gaze_encodings/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:38,282 - INFO - Skipping optional file movement/expression/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:38,612 - INFO - Skipping optional file movement/alignment_head_rotation/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:38,987 - INFO - Skipping optional file movement/alignment_translation/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:39,186 - INFO - Skipping optional file movement/head_encodings/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:39,438 - INFO - Skipping optional file movement/is_valid/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:39,440 - INFO - Skipping optional file movement_v4/gaze_encodings/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:39,622 - INFO - Skipping optional file movement/hypernet_features/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:39,813 - INFO - Skipping optional file movement_v4/alignment_head_rotation/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:39,869 - INFO - Skipping optional file movement/EmotionArousalToken/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:40,037 - INFO - Skipping optional file movement/emotion_scores/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:40,243 - INFO - Skipping optional file movement/emotion_arousal/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:40,300 - INFO - Skipping optional file movement_v4/expression/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:40,434 - INFO - Skipping optional file movement_v4/alignment_translation/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:40,504 - INFO - Skipping optional file movement_v4/emotion_valence/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:40,669 - INFO - Skipping optional file movement_v4/head_encodings/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:40,931 - INFO - Skipping optional file movement_v4/frame_latent/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:40,975 - INFO - Skipping optional file movement_v4/FAUToken/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:41,101 - INFO - Skipping optional file movement_v4/emotion_scores/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:41,122 - INFO - Skipping optional file movement_v4/emotion_arousal/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:41,275 - INFO - Skipping optional file movement_v4/hypernet_features/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:41,522 - INFO - Skipping optional file movement_v4/pred_vertices/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:41,532 - INFO - Skipping optional file movement_v4/EmotionValenceToken/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:41,674 - INFO - Skipping optional file movement_v4/FAUValue/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:41,699 - INFO - Skipping optional file annotations/1P-IS/V01_S0172_I00001294_P1317.json
+2026-02-05 13:45:41,848 - INFO - Skipping optional file movement_v4/is_valid/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:42,081 - INFO - Skipping optional file movement_v4/EmotionArousalToken/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:42,245 - INFO - Skipping optional file annotations/1P-R/V01_S0172_I00001294_P1317.json
+2026-02-05 13:45:42,263 - INFO - Skipping optional file annotations/3P-R/V01_S0172_I00001294_P1317.json
+2026-02-05 13:45:42,467 - INFO - Skipping optional file movement_v4/is_occluded/V01_S0172_I00001294_P1317.npy
+2026-02-05 13:45:42,516 - INFO - Skipping optional file annotations/3P-IS/V01_S0172_I00001294_P1317.json
+2026-02-05 13:45:42,841 - INFO - Skipping optional file annotations/3P-V/V01_S0172_I00001294_P1317.json
+2026-02-05 13:45:49,494 - INFO - Saved 9 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0036/V01_S0172_I00001294_P1317.npz
+2026-02-05 13:45:49,495 - INFO - Successfully processed file V01_S0172_I00001294_P1317 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0036
+2026-02-05 13:45:49,495 - INFO - Completed downloading batch of 2 files
+2026-02-05 14:24:43,593 - INFO - Loaded filelist with 129370 entries
+2026-02-05 14:24:43,611 - INFO - Downloading batch of 2 files
+2026-02-05 14:24:43,614 - INFO - Found 50 files for V00_S0692_I00000535_P0844A
+2026-02-05 14:24:52,304 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0692_I00000535_P0844A.npy
+2026-02-05 14:24:52,548 - INFO - Skipping optional file annotations/1P-IS/V00_S0692_I00000535_P0844A.json
+2026-02-05 14:24:53,101 - INFO - Skipping optional file annotations/3P-R/V00_S0692_I00000535_P0844A.json
+2026-02-05 14:24:53,121 - INFO - Skipping optional file annotations/1P-R/V00_S0692_I00000535_P0844A.json
+2026-02-05 14:24:53,689 - INFO - Skipping optional file annotations/3P-V/V00_S0692_I00000535_P0844A.json
+2026-02-05 14:24:53,700 - INFO - Skipping optional file annotations/3P-IS/V00_S0692_I00000535_P0844A.json
+2026-02-05 14:24:54,463 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0021/V00_S0692_I00000535_P0844A.npz
+2026-02-05 14:24:54,463 - INFO - Successfully processed file V00_S0692_I00000535_P0844A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0021
+2026-02-05 14:24:54,470 - INFO - Found 50 files for V00_S0692_I00000535_P0845
+2026-02-05 14:25:02,819 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0692_I00000535_P0845.npy
+2026-02-05 14:25:03,146 - INFO - Skipping optional file annotations/1P-IS/V00_S0692_I00000535_P0845.json
+2026-02-05 14:25:03,748 - INFO - Skipping optional file annotations/1P-R/V00_S0692_I00000535_P0845.json
+2026-02-05 14:25:04,002 - INFO - Skipping optional file annotations/3P-R/V00_S0692_I00000535_P0845.json
+2026-02-05 14:25:04,364 - INFO - Skipping optional file annotations/3P-IS/V00_S0692_I00000535_P0845.json
+2026-02-05 14:25:04,572 - INFO - Skipping optional file annotations/3P-V/V00_S0692_I00000535_P0845.json
+2026-02-05 14:25:05,198 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0051/V00_S0692_I00000535_P0845.npz
+2026-02-05 14:25:05,198 - INFO - Successfully processed file V00_S0692_I00000535_P0845 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0051
+2026-02-05 14:25:05,199 - INFO - Completed downloading batch of 2 files
+2026-02-10 14:01:49,286 - INFO - Loaded filelist with 129370 entries
+2026-02-10 14:01:49,306 - INFO - Downloading batch of 2 files
+2026-02-10 14:01:49,309 - INFO - Found 50 files for V01_S0308_I00001223_P1634
+2026-02-10 14:01:51,073 - INFO - Skipping optional file movement/emotion_valence/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:51,313 - INFO - Skipping optional file movement/FAUToken/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:51,671 - INFO - Skipping optional file movement/EmotionValenceToken/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:51,907 - INFO - Skipping optional file movement/frame_latent/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:52,308 - INFO - Skipping optional file movement/expression/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:52,541 - INFO - Skipping optional file movement/FAUValue/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:53,021 - INFO - Skipping optional file movement/gaze_encodings/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:53,311 - INFO - Skipping optional file movement/alignment_translation/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:53,890 - INFO - Skipping optional file movement/alignment_head_rotation/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:53,909 - INFO - Skipping optional file movement/hypernet_features/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:54,270 - INFO - Skipping optional file movement/is_valid/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:54,480 - INFO - Skipping optional file movement/emotion_arousal/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:54,486 - INFO - Skipping optional file movement/head_encodings/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:54,691 - INFO - Skipping optional file movement/EmotionArousalToken/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:54,820 - INFO - Skipping optional file movement/emotion_scores/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:54,879 - INFO - Skipping optional file movement_v4/gaze_encodings/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:55,132 - INFO - Skipping optional file movement_v4/alignment_head_rotation/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:55,245 - INFO - Skipping optional file movement_v4/emotion_valence/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:55,327 - INFO - Skipping optional file movement_v4/FAUToken/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:55,459 - INFO - Skipping optional file movement_v4/head_encodings/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:55,481 - INFO - Skipping optional file movement_v4/expression/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:55,713 - INFO - Skipping optional file movement_v4/alignment_translation/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:55,928 - INFO - Skipping optional file movement_v4/EmotionValenceToken/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:56,036 - INFO - Skipping optional file movement_v4/frame_latent/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:56,067 - INFO - Skipping optional file movement_v4/emotion_arousal/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:56,087 - INFO - Skipping optional file movement_v4/hypernet_features/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:56,311 - INFO - Skipping optional file movement_v4/emotion_scores/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:56,549 - INFO - Skipping optional file movement_v4/EmotionArousalToken/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:56,651 - INFO - Skipping optional file movement_v4/is_valid/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:56,660 - INFO - Skipping optional file movement_v4/FAUValue/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:56,717 - INFO - Skipping optional file movement_v4/pred_vertices/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:57,059 - INFO - Skipping optional file annotations/1P-IS/V01_S0308_I00001223_P1634.json
+2026-02-10 14:01:57,204 - INFO - Skipping optional file annotations/3P-R/V01_S0308_I00001223_P1634.json
+2026-02-10 14:01:57,329 - INFO - Skipping optional file movement_v4/is_occluded/V01_S0308_I00001223_P1634.npy
+2026-02-10 14:01:57,638 - INFO - Skipping optional file annotations/1P-R/V01_S0308_I00001223_P1634.json
+2026-02-10 14:01:57,798 - INFO - Skipping optional file annotations/3P-V/V01_S0308_I00001223_P1634.json
+2026-02-10 14:01:58,209 - INFO - Skipping optional file annotations/3P-IS/V01_S0308_I00001223_P1634.json
+2026-02-10 14:02:02,810 - INFO - Saved 9 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0011/V01_S0308_I00001223_P1634.npz
+2026-02-10 14:02:02,811 - INFO - Successfully processed file V01_S0308_I00001223_P1634 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0011
+2026-02-10 14:02:02,816 - INFO - Found 50 files for V01_S0308_I00001223_P1618
+2026-02-10 14:02:04,811 - INFO - Skipping optional file movement/FAUToken/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:05,418 - INFO - Skipping optional file movement/emotion_valence/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:05,496 - INFO - Skipping optional file movement/frame_latent/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:06,015 - INFO - Skipping optional file movement/EmotionValenceToken/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:06,044 - INFO - Skipping optional file movement/FAUValue/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:06,633 - INFO - Skipping optional file movement/expression/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:06,683 - INFO - Skipping optional file movement/gaze_encodings/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:07,390 - INFO - Skipping optional file movement/alignment_head_rotation/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:07,523 - INFO - Skipping optional file movement/alignment_translation/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:07,573 - INFO - Skipping optional file movement/is_valid/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:08,007 - INFO - Skipping optional file movement_v4/gaze_encodings/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:08,077 - INFO - Skipping optional file movement/hypernet_features/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:08,126 - INFO - Skipping optional file movement/emotion_scores/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:08,361 - INFO - Skipping optional file movement/EmotionArousalToken/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:08,390 - INFO - Skipping optional file movement/head_encodings/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:08,590 - INFO - Skipping optional file movement_v4/expression/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:08,686 - INFO - Skipping optional file movement_v4/head_encodings/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:08,709 - INFO - Skipping optional file movement/emotion_arousal/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:08,969 - INFO - Skipping optional file movement_v4/alignment_head_rotation/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:09,151 - INFO - Skipping optional file movement_v4/frame_latent/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:09,160 - INFO - Skipping optional file movement_v4/emotion_valence/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:09,264 - INFO - Skipping optional file movement_v4/FAUToken/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:09,290 - INFO - Skipping optional file movement_v4/hypernet_features/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:09,636 - INFO - Skipping optional file movement_v4/alignment_translation/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:09,720 - INFO - Skipping optional file movement_v4/emotion_arousal/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:09,792 - INFO - Skipping optional file movement_v4/pred_vertices/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:09,853 - INFO - Skipping optional file movement_v4/EmotionValenceToken/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:09,883 - INFO - Skipping optional file movement_v4/is_valid/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:10,299 - INFO - Skipping optional file movement_v4/emotion_scores/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:10,320 - INFO - Skipping optional file movement_v4/FAUValue/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:10,513 - INFO - Skipping optional file movement_v4/is_occluded/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:10,760 - INFO - Skipping optional file movement_v4/EmotionArousalToken/V01_S0308_I00001223_P1618.npy
+2026-02-10 14:02:10,945 - INFO - Skipping optional file annotations/1P-IS/V01_S0308_I00001223_P1618.json
+2026-02-10 14:02:11,109 - INFO - Skipping optional file annotations/3P-R/V01_S0308_I00001223_P1618.json
+2026-02-10 14:02:11,499 - INFO - Skipping optional file annotations/1P-R/V01_S0308_I00001223_P1618.json
+2026-02-10 14:02:11,719 - INFO - Skipping optional file annotations/3P-V/V01_S0308_I00001223_P1618.json
+2026-02-10 14:02:12,958 - INFO - Skipping optional file annotations/3P-IS/V01_S0308_I00001223_P1618.json
+2026-02-10 14:02:15,885 - INFO - Saved 9 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0039/V01_S0308_I00001223_P1618.npz
+2026-02-10 14:02:15,886 - INFO - Successfully processed file V01_S0308_I00001223_P1618 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0039
+2026-02-10 14:02:15,887 - INFO - Completed downloading batch of 2 files
+2026-02-10 14:03:33,059 - INFO - Loaded filelist with 129370 entries
+2026-02-10 14:03:33,076 - INFO - Downloading batch of 2 files
+2026-02-10 14:03:33,080 - INFO - Found 50 files for V01_S0346_I00000725_P1693
+2026-02-10 14:03:34,869 - INFO - Skipping optional file movement/emotion_valence/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:34,912 - INFO - Skipping optional file movement/FAUToken/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:35,519 - INFO - Skipping optional file movement/frame_latent/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:35,563 - INFO - Skipping optional file movement/EmotionValenceToken/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:36,134 - INFO - Skipping optional file movement/expression/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:36,134 - INFO - Skipping optional file movement/FAUValue/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:36,429 - INFO - Skipping optional file movement/gaze_encodings/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:36,772 - INFO - Skipping optional file movement/alignment_translation/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:36,786 - INFO - Skipping optional file movement/EmotionArousalToken/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:36,788 - INFO - Skipping optional file movement/is_valid/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:36,925 - INFO - Skipping optional file movement_v4/gaze_encodings/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:36,986 - INFO - Skipping optional file movement/alignment_head_rotation/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:37,321 - INFO - Skipping optional file movement_v4/alignment_head_rotation/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:37,327 - INFO - Skipping optional file movement/hypernet_features/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:37,366 - INFO - Skipping optional file movement_v4/emotion_valence/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:37,464 - INFO - Skipping optional file movement_v4/expression/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:37,523 - INFO - Skipping optional file movement/head_encodings/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:37,638 - INFO - Skipping optional file movement/emotion_scores/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:37,884 - INFO - Skipping optional file movement_v4/alignment_translation/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:37,933 - INFO - Skipping optional file movement_v4/emotion_arousal/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:37,936 - INFO - Skipping optional file movement/emotion_arousal/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:38,074 - INFO - Skipping optional file movement_v4/frame_latent/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:38,098 - INFO - Skipping optional file movement_v4/FAUToken/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:38,192 - INFO - Skipping optional file movement_v4/head_encodings/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:38,476 - INFO - Skipping optional file movement_v4/FAUValue/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:38,514 - INFO - Skipping optional file movement_v4/hypernet_features/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:38,592 - INFO - Skipping optional file movement_v4/emotion_scores/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:38,658 - INFO - Skipping optional file movement_v4/EmotionValenceToken/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:38,694 - INFO - Skipping optional file movement_v4/pred_vertices/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:38,782 - INFO - Skipping optional file annotations/1P-IS/V01_S0346_I00000725_P1693.json
+2026-02-10 14:03:39,065 - INFO - Skipping optional file movement_v4/is_valid/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:39,077 - INFO - Skipping optional file annotations/3P-R/V01_S0346_I00000725_P1693.json
+2026-02-10 14:03:39,203 - INFO - Skipping optional file movement_v4/EmotionArousalToken/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:39,380 - INFO - Skipping optional file annotations/1P-R/V01_S0346_I00000725_P1693.json
+2026-02-10 14:03:39,821 - INFO - Skipping optional file movement_v4/is_occluded/V01_S0346_I00000725_P1693.npy
+2026-02-10 14:03:39,821 - INFO - Skipping optional file annotations/3P-V/V01_S0346_I00000725_P1693.json
+2026-02-10 14:03:40,435 - INFO - Skipping optional file annotations/3P-IS/V01_S0346_I00000725_P1693.json
+2026-02-10 14:03:40,542 - INFO - Saved 9 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0005/V01_S0346_I00000725_P1693.npz
+2026-02-10 14:03:40,542 - INFO - Successfully processed file V01_S0346_I00000725_P1693 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0005
+2026-02-10 14:03:40,548 - INFO - Found 50 files for V01_S0346_I00000725_P1694
+2026-02-10 14:03:42,259 - INFO - Skipping optional file movement/emotion_valence/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:42,266 - INFO - Skipping optional file movement/FAUToken/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:42,807 - INFO - Skipping optional file movement/EmotionValenceToken/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:42,812 - INFO - Skipping optional file movement/frame_latent/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:43,357 - INFO - Skipping optional file movement/FAUValue/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:43,374 - INFO - Skipping optional file movement/expression/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:43,422 - INFO - Skipping optional file movement/EmotionArousalToken/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:43,946 - INFO - Skipping optional file movement/gaze_encodings/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:44,002 - INFO - Skipping optional file movement/alignment_translation/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:44,031 - INFO - Skipping optional file movement/is_valid/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:44,218 - INFO - Skipping optional file movement_v4/alignment_head_rotation/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:44,445 - INFO - Skipping optional file movement_v4/gaze_encodings/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:44,515 - INFO - Skipping optional file movement/alignment_head_rotation/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:44,574 - INFO - Skipping optional file movement/hypernet_features/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:44,714 - INFO - Skipping optional file movement_v4/emotion_valence/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:44,749 - INFO - Skipping optional file movement/emotion_scores/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:44,759 - INFO - Skipping optional file movement_v4/alignment_translation/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:45,091 - INFO - Skipping optional file movement/head_encodings/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:45,135 - INFO - Skipping optional file movement/emotion_arousal/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:45,263 - INFO - Skipping optional file movement_v4/emotion_arousal/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:45,506 - INFO - Skipping optional file movement_v4/head_encodings/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:45,594 - INFO - Skipping optional file movement_v4/expression/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:45,688 - INFO - Skipping optional file movement_v4/FAUToken/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:45,733 - INFO - Skipping optional file movement_v4/hypernet_features/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:45,738 - INFO - Skipping optional file movement_v4/emotion_scores/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:46,170 - INFO - Skipping optional file movement_v4/FAUValue/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:46,170 - INFO - Skipping optional file movement_v4/frame_latent/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:46,171 - INFO - Skipping optional file movement_v4/pred_vertices/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:46,249 - INFO - Skipping optional file movement_v4/EmotionValenceToken/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:46,294 - INFO - Skipping optional file movement_v4/is_valid/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:46,360 - INFO - Skipping optional file annotations/1P-IS/V01_S0346_I00000725_P1694.json
+2026-02-10 14:03:46,796 - INFO - Skipping optional file movement_v4/EmotionArousalToken/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:46,823 - INFO - Skipping optional file annotations/3P-R/V01_S0346_I00000725_P1694.json
+2026-02-10 14:03:46,853 - INFO - Skipping optional file movement_v4/is_occluded/V01_S0346_I00000725_P1694.npy
+2026-02-10 14:03:47,194 - INFO - Skipping optional file annotations/1P-R/V01_S0346_I00000725_P1694.json
+2026-02-10 14:03:47,391 - INFO - Skipping optional file annotations/3P-V/V01_S0346_I00000725_P1694.json
+2026-02-10 14:03:47,806 - INFO - Skipping optional file annotations/3P-IS/V01_S0346_I00000725_P1694.json
+2026-02-10 14:03:47,912 - INFO - Saved 9 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0033/V01_S0346_I00000725_P1694.npz
+2026-02-10 14:03:47,913 - INFO - Successfully processed file V01_S0346_I00000725_P1694 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0033
+2026-02-10 14:03:47,913 - INFO - Completed downloading batch of 2 files
+2026-02-10 14:05:17,554 - INFO - Loaded filelist with 129370 entries
+2026-02-10 14:05:17,578 - INFO - Downloading batch of 2 files
+2026-02-10 14:05:17,581 - INFO - Found 50 files for V00_S0644_I00000129_P0799
+2026-02-10 14:05:23,945 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0644_I00000129_P0799.npy
+2026-02-10 14:05:24,010 - INFO - Skipping optional file annotations/1P-IS/V00_S0644_I00000129_P0799.json
+2026-02-10 14:05:24,476 - INFO - Skipping optional file annotations/3P-R/V00_S0644_I00000129_P0799.json
+2026-02-10 14:05:24,564 - INFO - Skipping optional file annotations/1P-R/V00_S0644_I00000129_P0799.json
+2026-02-10 14:05:25,019 - INFO - Skipping optional file annotations/3P-V/V00_S0644_I00000129_P0799.json
+2026-02-10 14:05:25,127 - INFO - Skipping optional file annotations/3P-IS/V00_S0644_I00000129_P0799.json
+2026-02-10 14:05:25,909 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0000/V00_S0644_I00000129_P0799.npz
+2026-02-10 14:05:25,909 - INFO - Successfully processed file V00_S0644_I00000129_P0799 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0000
+2026-02-10 14:05:25,937 - INFO - Found 50 files for V00_S0644_I00000129_P0299A
+2026-02-10 14:05:32,230 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0644_I00000129_P0299A.npy
+2026-02-10 14:05:32,246 - INFO - Skipping optional file annotations/1P-IS/V00_S0644_I00000129_P0299A.json
+2026-02-10 14:05:32,847 - INFO - Skipping optional file annotations/3P-R/V00_S0644_I00000129_P0299A.json
+2026-02-10 14:05:32,849 - INFO - Skipping optional file annotations/1P-R/V00_S0644_I00000129_P0299A.json
+2026-02-10 14:05:33,428 - INFO - Skipping optional file annotations/3P-V/V00_S0644_I00000129_P0299A.json
+2026-02-10 14:05:33,428 - INFO - Skipping optional file annotations/3P-IS/V00_S0644_I00000129_P0299A.json
+2026-02-10 14:05:33,923 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0033/V00_S0644_I00000129_P0299A.npz
+2026-02-10 14:05:33,923 - INFO - Successfully processed file V00_S0644_I00000129_P0299A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0033
+2026-02-10 14:05:33,925 - INFO - Completed downloading batch of 2 files
+2026-02-10 14:05:57,583 - INFO - Loaded filelist with 129370 entries
+2026-02-10 14:05:57,599 - INFO - Downloading batch of 2 files
+2026-02-10 14:05:57,602 - INFO - Found 50 files for V01_S0308_I00001233_P1634
+2026-02-10 14:05:59,292 - INFO - Skipping optional file movement/emotion_valence/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:05:59,310 - INFO - Skipping optional file movement/FAUToken/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:05:59,877 - INFO - Skipping optional file movement/EmotionValenceToken/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:05:59,925 - INFO - Skipping optional file movement/frame_latent/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:00,416 - INFO - Skipping optional file movement/expression/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:00,520 - INFO - Skipping optional file movement/FAUValue/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:01,054 - INFO - Skipping optional file movement/gaze_encodings/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:01,120 - INFO - Skipping optional file movement/alignment_translation/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:01,643 - INFO - Skipping optional file movement/alignment_head_rotation/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:01,693 - INFO - Skipping optional file movement/hypernet_features/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:02,132 - INFO - Skipping optional file movement/EmotionArousalToken/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:02,199 - INFO - Skipping optional file movement/head_encodings/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:02,225 - INFO - Skipping optional file movement/emotion_arousal/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:02,312 - INFO - Skipping optional file movement/is_valid/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:02,784 - INFO - Skipping optional file movement_v4/alignment_head_rotation/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:02,784 - INFO - Skipping optional file movement_v4/gaze_encodings/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:02,786 - INFO - Skipping optional file movement_v4/emotion_valence/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:02,842 - INFO - Skipping optional file movement_v4/FAUToken/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:03,149 - INFO - Skipping optional file movement/emotion_scores/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:03,344 - INFO - Skipping optional file movement_v4/alignment_translation/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:03,348 - INFO - Skipping optional file movement_v4/expression/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:03,348 - INFO - Skipping optional file movement_v4/emotion_arousal/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:03,390 - INFO - Skipping optional file movement_v4/EmotionValenceToken/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:03,726 - INFO - Skipping optional file movement_v4/head_encodings/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:03,892 - INFO - Skipping optional file movement_v4/emotion_scores/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:03,915 - INFO - Skipping optional file movement_v4/FAUValue/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:03,925 - INFO - Skipping optional file movement_v4/frame_latent/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:03,933 - INFO - Skipping optional file movement_v4/EmotionArousalToken/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:04,361 - INFO - Skipping optional file movement_v4/hypernet_features/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:04,469 - INFO - Skipping optional file movement_v4/pred_vertices/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:04,509 - INFO - Skipping optional file annotations/1P-IS/V01_S0308_I00001233_P1634.json
+2026-02-10 14:06:04,543 - INFO - Skipping optional file annotations/3P-R/V01_S0308_I00001233_P1634.json
+2026-02-10 14:06:04,941 - INFO - Skipping optional file movement_v4/is_valid/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:05,091 - INFO - Skipping optional file annotations/1P-R/V01_S0308_I00001233_P1634.json
+2026-02-10 14:06:05,100 - INFO - Skipping optional file annotations/3P-V/V01_S0308_I00001233_P1634.json
+2026-02-10 14:06:05,495 - INFO - Skipping optional file movement_v4/is_occluded/V01_S0308_I00001233_P1634.npy
+2026-02-10 14:06:05,686 - INFO - Skipping optional file annotations/3P-IS/V01_S0308_I00001233_P1634.json
+2026-02-10 14:06:10,218 - INFO - Saved 9 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0005/V01_S0308_I00001233_P1634.npz
+2026-02-10 14:06:10,219 - INFO - Successfully processed file V01_S0308_I00001233_P1634 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0005
+2026-02-10 14:06:10,225 - INFO - Found 50 files for V01_S0308_I00001233_P1618
+2026-02-10 14:06:11,919 - INFO - Skipping optional file movement/emotion_valence/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:11,946 - INFO - Skipping optional file movement/FAUToken/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:12,469 - INFO - Skipping optional file movement/EmotionValenceToken/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:12,505 - INFO - Skipping optional file movement/frame_latent/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:13,030 - INFO - Skipping optional file movement/expression/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:13,064 - INFO - Skipping optional file movement/FAUValue/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:13,645 - INFO - Skipping optional file movement/gaze_encodings/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:13,659 - INFO - Skipping optional file movement/alignment_translation/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:14,232 - INFO - Skipping optional file movement/alignment_head_rotation/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:14,264 - INFO - Skipping optional file movement/hypernet_features/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:14,711 - INFO - Skipping optional file movement/EmotionArousalToken/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:14,794 - INFO - Skipping optional file movement/head_encodings/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:14,818 - INFO - Skipping optional file movement/emotion_arousal/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:14,956 - INFO - Skipping optional file movement/is_valid/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:15,450 - INFO - Skipping optional file movement_v4/alignment_head_rotation/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:15,452 - INFO - Skipping optional file movement_v4/emotion_valence/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:15,451 - INFO - Skipping optional file movement_v4/gaze_encodings/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:15,454 - INFO - Skipping optional file movement_v4/FAUToken/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:15,504 - INFO - Skipping optional file movement/emotion_scores/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:16,047 - INFO - Skipping optional file movement_v4/EmotionValenceToken/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:16,057 - INFO - Skipping optional file movement_v4/expression/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:16,068 - INFO - Skipping optional file movement_v4/emotion_arousal/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:16,071 - INFO - Skipping optional file movement_v4/head_encodings/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:16,103 - INFO - Skipping optional file movement_v4/alignment_translation/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:16,604 - INFO - Skipping optional file movement_v4/EmotionArousalToken/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:16,616 - INFO - Skipping optional file movement_v4/frame_latent/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:16,651 - INFO - Skipping optional file movement_v4/FAUValue/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:16,663 - INFO - Skipping optional file movement_v4/emotion_scores/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:16,721 - INFO - Skipping optional file movement_v4/hypernet_features/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:17,238 - INFO - Skipping optional file movement_v4/pred_vertices/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:17,316 - INFO - Skipping optional file annotations/3P-R/V01_S0308_I00001233_P1618.json
+2026-02-10 14:06:17,349 - INFO - Skipping optional file annotations/1P-IS/V01_S0308_I00001233_P1618.json
+2026-02-10 14:06:17,349 - INFO - Skipping optional file movement_v4/is_valid/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:17,982 - INFO - Skipping optional file annotations/1P-R/V01_S0308_I00001233_P1618.json
+2026-02-10 14:06:18,002 - INFO - Skipping optional file movement_v4/is_occluded/V01_S0308_I00001233_P1618.npy
+2026-02-10 14:06:18,018 - INFO - Skipping optional file annotations/3P-V/V01_S0308_I00001233_P1618.json
+2026-02-10 14:06:18,577 - INFO - Skipping optional file annotations/3P-IS/V01_S0308_I00001233_P1618.json
+2026-02-10 14:06:20,701 - INFO - Saved 9 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0028/V01_S0308_I00001233_P1618.npz
+2026-02-10 14:06:20,701 - INFO - Successfully processed file V01_S0308_I00001233_P1618 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0028
+2026-02-10 14:06:20,702 - INFO - Completed downloading batch of 2 files
+2026-02-10 14:06:39,474 - INFO - Loaded filelist with 129370 entries
+2026-02-10 14:06:39,490 - INFO - Downloading batch of 2 files
+2026-02-10 14:06:39,493 - INFO - Found 50 files for V00_S0696_I00000544_P0844A
+2026-02-10 14:06:50,595 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0696_I00000544_P0844A.npy
+2026-02-10 14:06:51,305 - INFO - Skipping optional file annotations/1P-IS/V00_S0696_I00000544_P0844A.json
+2026-02-10 14:06:51,390 - INFO - Skipping optional file annotations/3P-R/V00_S0696_I00000544_P0844A.json
+2026-02-10 14:06:51,892 - INFO - Skipping optional file annotations/1P-R/V00_S0696_I00000544_P0844A.json
+2026-02-10 14:06:51,981 - INFO - Skipping optional file annotations/3P-V/V00_S0696_I00000544_P0844A.json
+2026-02-10 14:06:52,425 - INFO - Skipping optional file annotations/3P-IS/V00_S0696_I00000544_P0844A.json
+2026-02-10 14:06:54,141 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0018/V00_S0696_I00000544_P0844A.npz
+2026-02-10 14:06:54,141 - INFO - Successfully processed file V00_S0696_I00000544_P0844A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0018
+2026-02-10 14:06:54,148 - INFO - Found 50 files for V00_S0696_I00000544_P0847
+2026-02-10 14:07:05,267 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0696_I00000544_P0847.npy
+2026-02-10 14:07:05,732 - INFO - Skipping optional file annotations/1P-IS/V00_S0696_I00000544_P0847.json
+2026-02-10 14:07:05,928 - INFO - Skipping optional file annotations/3P-R/V00_S0696_I00000544_P0847.json
+2026-02-10 14:07:06,350 - INFO - Skipping optional file annotations/1P-R/V00_S0696_I00000544_P0847.json
+2026-02-10 14:07:06,485 - INFO - Skipping optional file annotations/3P-V/V00_S0696_I00000544_P0847.json
+2026-02-10 14:07:07,075 - INFO - Skipping optional file annotations/3P-IS/V00_S0696_I00000544_P0847.json
+2026-02-10 14:07:09,162 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0027/V00_S0696_I00000544_P0847.npz
+2026-02-10 14:07:09,163 - INFO - Successfully processed file V00_S0696_I00000544_P0847 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0027
+2026-02-10 14:07:09,164 - INFO - Completed downloading batch of 2 files
+2026-02-23 15:28:45,381 - INFO - Loaded filelist with 129370 entries
+2026-02-23 15:28:45,405 - INFO - Downloading batch of 2 files
+2026-02-23 15:28:45,411 - INFO - Found 50 files for V00_S0696_I00000544_P0844A
+2026-02-23 15:29:05,159 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0696_I00000544_P0844A.npy
+2026-02-23 15:29:05,988 - INFO - Skipping optional file annotations/1P-IS/V00_S0696_I00000544_P0844A.json
+2026-02-23 15:29:06,565 - INFO - Skipping optional file annotations/3P-R/V00_S0696_I00000544_P0844A.json
+2026-02-23 15:29:06,752 - INFO - Skipping optional file annotations/1P-R/V00_S0696_I00000544_P0844A.json
+2026-02-23 15:29:07,316 - INFO - Skipping optional file annotations/3P-V/V00_S0696_I00000544_P0844A.json
+2026-02-23 15:29:07,475 - INFO - Skipping optional file annotations/3P-IS/V00_S0696_I00000544_P0844A.json
+2026-02-23 15:29:12,842 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0018/V00_S0696_I00000544_P0844A.npz
+2026-02-23 15:29:12,842 - INFO - Successfully processed file V00_S0696_I00000544_P0844A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0018
+2026-02-23 15:29:12,881 - INFO - Found 50 files for V00_S0696_I00000544_P0847
+2026-02-23 15:29:32,128 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0696_I00000544_P0847.npy
+2026-02-23 15:29:32,280 - INFO - Skipping optional file annotations/1P-IS/V00_S0696_I00000544_P0847.json
+2026-02-23 15:29:32,997 - INFO - Skipping optional file annotations/1P-R/V00_S0696_I00000544_P0847.json
+2026-02-23 15:29:33,631 - INFO - Skipping optional file annotations/3P-IS/V00_S0696_I00000544_P0847.json
+2026-02-23 15:29:33,990 - INFO - Skipping optional file annotations/3P-R/V00_S0696_I00000544_P0847.json
+2026-02-23 15:29:34,708 - INFO - Skipping optional file annotations/3P-V/V00_S0696_I00000544_P0847.json
+2026-02-23 15:29:41,987 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0027/V00_S0696_I00000544_P0847.npz
+2026-02-23 15:29:41,988 - INFO - Successfully processed file V00_S0696_I00000544_P0847 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0027
+2026-02-23 15:29:41,991 - INFO - Completed downloading batch of 2 files
+2026-02-23 15:34:42,870 - INFO - Loaded filelist with 129370 entries
+2026-02-23 15:34:42,894 - INFO - Downloading batch of 2 files
+2026-02-23 15:34:42,900 - INFO - Found 50 files for V00_S0809_I00000785_P0947
+2026-02-23 15:34:59,410 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0809_I00000785_P0947.npy
+2026-02-23 15:35:00,572 - INFO - Skipping optional file annotations/1P-IS/V00_S0809_I00000785_P0947.json
+2026-02-23 15:35:00,707 - INFO - Skipping optional file annotations/3P-R/V00_S0809_I00000785_P0947.json
+2026-02-23 15:35:01,318 - INFO - Skipping optional file annotations/1P-R/V00_S0809_I00000785_P0947.json
+2026-02-23 15:35:01,424 - INFO - Skipping optional file annotations/3P-V/V00_S0809_I00000785_P0947.json
+2026-02-23 15:35:02,068 - INFO - Skipping optional file annotations/3P-IS/V00_S0809_I00000785_P0947.json
+2026-02-23 15:35:08,685 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0022/V00_S0809_I00000785_P0947.npz
+2026-02-23 15:35:08,686 - INFO - Successfully processed file V00_S0809_I00000785_P0947 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0022
+2026-02-23 15:35:08,714 - INFO - Found 50 files for V00_S0809_I00000785_P0383
+2026-02-23 15:35:25,889 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0809_I00000785_P0383.npy
+2026-02-23 15:35:26,969 - INFO - Skipping optional file annotations/1P-IS/V00_S0809_I00000785_P0383.json
+2026-02-23 15:35:26,993 - INFO - Skipping optional file annotations/3P-R/V00_S0809_I00000785_P0383.json
+2026-02-23 15:35:27,714 - INFO - Skipping optional file annotations/1P-R/V00_S0809_I00000785_P0383.json
+2026-02-23 15:35:27,727 - INFO - Skipping optional file annotations/3P-V/V00_S0809_I00000785_P0383.json
+2026-02-23 15:35:28,411 - INFO - Skipping optional file annotations/3P-IS/V00_S0809_I00000785_P0383.json
+2026-02-23 15:35:35,703 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0028/V00_S0809_I00000785_P0383.npz
+2026-02-23 15:35:35,703 - INFO - Successfully processed file V00_S0809_I00000785_P0383 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0028
+2026-02-23 15:35:35,706 - INFO - Completed downloading batch of 2 files
+2026-02-23 16:08:12,158 - INFO - Loaded filelist with 129370 entries
+2026-02-23 16:08:12,183 - INFO - Downloading batch of 2 files
+2026-02-23 16:08:12,189 - INFO - Found 50 files for V00_S0692_I00000480_P0845
+2026-02-23 16:08:28,336 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0692_I00000480_P0845.npy
+2026-02-23 16:08:28,374 - INFO - Skipping optional file annotations/1P-IS/V00_S0692_I00000480_P0845.json
+2026-02-23 16:08:28,382 - INFO - Skipping optional file annotations/3P-R/V00_S0692_I00000480_P0845.json
+2026-02-23 16:08:28,984 - INFO - Skipping optional file annotations/1P-R/V00_S0692_I00000480_P0845.json
+2026-02-23 16:08:28,999 - INFO - Skipping optional file annotations/3P-V/V00_S0692_I00000480_P0845.json
+2026-02-23 16:08:29,562 - INFO - Skipping optional file annotations/3P-IS/V00_S0692_I00000480_P0845.json
+2026-02-23 16:08:32,834 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0011/V00_S0692_I00000480_P0845.npz
+2026-02-23 16:08:32,835 - INFO - Successfully processed file V00_S0692_I00000480_P0845 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0011
+2026-02-23 16:08:32,864 - INFO - Found 50 files for V00_S0692_I00000480_P0844A
+2026-02-23 16:08:44,973 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0692_I00000480_P0844A.npy
+2026-02-23 16:08:45,455 - INFO - Skipping optional file annotations/1P-IS/V00_S0692_I00000480_P0844A.json
+2026-02-23 16:08:45,688 - INFO - Skipping optional file annotations/3P-R/V00_S0692_I00000480_P0844A.json
+2026-02-23 16:08:46,069 - INFO - Skipping optional file annotations/1P-R/V00_S0692_I00000480_P0844A.json
+2026-02-23 16:08:46,384 - INFO - Skipping optional file annotations/3P-V/V00_S0692_I00000480_P0844A.json
+2026-02-23 16:08:46,831 - INFO - Skipping optional file annotations/3P-IS/V00_S0692_I00000480_P0844A.json
+2026-02-23 16:08:52,732 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0021/V00_S0692_I00000480_P0844A.npz
+2026-02-23 16:08:52,732 - INFO - Successfully processed file V00_S0692_I00000480_P0844A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0021
+2026-02-23 16:08:52,734 - INFO - Completed downloading batch of 2 files
+2026-02-23 16:34:30,123 - INFO - Loaded filelist with 129370 entries
+2026-02-23 16:34:30,147 - INFO - Downloading batch of 2 files
+2026-02-23 16:34:30,163 - INFO - Found 50 files for V01_S1881_I00000184_P2767
+2026-02-23 16:34:32,407 - INFO - Skipping optional file movement/emotion_valence/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:32,446 - INFO - Skipping optional file movement/FAUToken/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:32,988 - INFO - Skipping optional file movement/EmotionValenceToken/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:33,007 - INFO - Skipping optional file movement/frame_latent/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:33,556 - INFO - Skipping optional file movement/expression/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:33,577 - INFO - Skipping optional file movement/FAUValue/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:34,189 - INFO - Skipping optional file movement/gaze_encodings/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:34,223 - INFO - Skipping optional file movement/alignment_translation/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:34,777 - INFO - Skipping optional file movement/alignment_head_rotation/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:34,846 - INFO - Skipping optional file movement/hypernet_features/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:35,253 - INFO - Skipping optional file movement/is_valid/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:35,334 - INFO - Skipping optional file movement/head_encodings/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:35,382 - INFO - Skipping optional file movement/EmotionArousalToken/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:35,420 - INFO - Skipping optional file movement/emotion_arousal/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:35,794 - INFO - Skipping optional file movement_v4/gaze_encodings/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:35,798 - INFO - Skipping optional file movement/emotion_scores/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:35,938 - INFO - Skipping optional file movement_v4/alignment_head_rotation/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:36,019 - INFO - Skipping optional file movement_v4/emotion_valence/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:36,038 - INFO - Skipping optional file movement_v4/FAUToken/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:36,361 - INFO - Skipping optional file movement_v4/head_encodings/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:36,369 - INFO - Skipping optional file movement_v4/expression/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:36,514 - INFO - Skipping optional file movement_v4/alignment_translation/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:36,595 - INFO - Skipping optional file movement_v4/EmotionValenceToken/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:36,625 - INFO - Skipping optional file movement_v4/emotion_arousal/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:36,930 - INFO - Skipping optional file movement_v4/frame_latent/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:36,974 - INFO - Skipping optional file movement_v4/hypernet_features/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:37,067 - INFO - Skipping optional file movement_v4/emotion_scores/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:37,179 - INFO - Skipping optional file movement_v4/EmotionArousalToken/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:37,245 - INFO - Skipping optional file movement_v4/FAUValue/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:37,606 - INFO - Skipping optional file movement_v4/is_valid/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:37,610 - INFO - Skipping optional file movement_v4/pred_vertices/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:37,651 - INFO - Skipping optional file annotations/1P-IS/V01_S1881_I00000184_P2767.json
+2026-02-23 16:34:37,763 - INFO - Skipping optional file annotations/3P-R/V01_S1881_I00000184_P2767.json
+2026-02-23 16:34:38,233 - INFO - Skipping optional file annotations/1P-R/V01_S1881_I00000184_P2767.json
+2026-02-23 16:34:38,233 - INFO - Skipping optional file movement_v4/is_occluded/V01_S1881_I00000184_P2767.npy
+2026-02-23 16:34:38,385 - INFO - Skipping optional file annotations/3P-V/V01_S1881_I00000184_P2767.json
+2026-02-23 16:34:38,796 - INFO - Skipping optional file annotations/3P-IS/V01_S1881_I00000184_P2767.json
+2026-02-23 16:34:52,592 - INFO - Saved 9 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0016/V01_S1881_I00000184_P2767.npz
+2026-02-23 16:34:52,593 - INFO - Successfully processed file V01_S1881_I00000184_P2767 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0016
+2026-02-23 16:34:52,614 - INFO - Found 50 files for V01_S1881_I00000184_P2766
+2026-02-23 16:34:55,312 - INFO - Skipping optional file movement/emotion_valence/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:34:55,331 - INFO - Skipping optional file movement/FAUToken/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:34:55,905 - INFO - Skipping optional file movement/EmotionValenceToken/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:34:55,940 - INFO - Skipping optional file movement/frame_latent/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:34:56,533 - INFO - Skipping optional file movement/expression/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:34:56,594 - INFO - Skipping optional file movement/FAUValue/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:34:57,316 - INFO - Skipping optional file movement/gaze_encodings/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:34:57,416 - INFO - Skipping optional file movement/alignment_translation/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:34:58,011 - INFO - Skipping optional file movement/alignment_head_rotation/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:34:58,221 - INFO - Skipping optional file movement/hypernet_features/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:34:58,753 - INFO - Skipping optional file movement/head_encodings/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:34:58,967 - INFO - Skipping optional file movement/emotion_arousal/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:34:59,097 - INFO - Skipping optional file movement/is_valid/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:34:59,118 - INFO - Skipping optional file movement_v4/gaze_encodings/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:34:59,487 - INFO - Skipping optional file movement_v4/alignment_head_rotation/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:34:59,674 - INFO - Skipping optional file movement_v4/emotion_valence/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:34:59,687 - INFO - Skipping optional file movement_v4/expression/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:34:59,696 - INFO - Skipping optional file movement/emotion_scores/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:35:00,085 - INFO - Skipping optional file movement_v4/alignment_translation/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:35:00,244 - INFO - Skipping optional file movement_v4/frame_latent/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:35:00,267 - INFO - Skipping optional file movement_v4/emotion_arousal/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:35:00,294 - INFO - Skipping optional file movement_v4/head_encodings/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:35:00,702 - INFO - Skipping optional file movement_v4/emotion_scores/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:35:00,832 - INFO - Skipping optional file movement_v4/FAUValue/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:35:00,892 - INFO - Skipping optional file movement/EmotionArousalToken/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:35:00,930 - INFO - Skipping optional file movement_v4/FAUToken/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:35:00,981 - INFO - Skipping optional file movement_v4/hypernet_features/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:35:01,393 - INFO - Skipping optional file movement_v4/pred_vertices/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:35:01,500 - INFO - Skipping optional file annotations/1P-IS/V01_S1881_I00000184_P2766.json
+2026-02-23 16:35:01,650 - INFO - Skipping optional file annotations/3P-R/V01_S1881_I00000184_P2766.json
+2026-02-23 16:35:01,650 - INFO - Skipping optional file movement_v4/EmotionValenceToken/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:35:01,651 - INFO - Skipping optional file movement_v4/is_valid/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:35:02,270 - INFO - Skipping optional file annotations/1P-R/V01_S1881_I00000184_P2766.json
+2026-02-23 16:35:02,306 - INFO - Skipping optional file movement_v4/EmotionArousalToken/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:35:02,318 - INFO - Skipping optional file movement_v4/is_occluded/V01_S1881_I00000184_P2766.npy
+2026-02-23 16:35:02,344 - INFO - Skipping optional file annotations/3P-V/V01_S1881_I00000184_P2766.json
+2026-02-23 16:35:02,990 - INFO - Skipping optional file annotations/3P-IS/V01_S1881_I00000184_P2766.json
+2026-02-23 16:35:05,485 - INFO - Saved 9 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0048/V01_S1881_I00000184_P2766.npz
+2026-02-23 16:35:05,487 - INFO - Successfully processed file V01_S1881_I00000184_P2766 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0048
+2026-02-23 16:35:05,488 - INFO - Completed downloading batch of 2 files
+2026-02-23 16:37:29,375 - INFO - Loaded filelist with 129370 entries
+2026-02-23 16:37:29,401 - INFO - Downloading batch of 2 files
+2026-02-23 16:37:29,407 - INFO - Found 50 files for V01_S0172_I00001224_P1316
+2026-02-23 16:37:31,587 - INFO - Skipping optional file movement/emotion_valence/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:31,649 - INFO - Skipping optional file movement/FAUToken/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:32,148 - INFO - Skipping optional file movement/EmotionValenceToken/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:32,213 - INFO - Skipping optional file movement/frame_latent/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:32,765 - INFO - Skipping optional file movement/expression/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:32,795 - INFO - Skipping optional file movement/FAUValue/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:33,479 - INFO - Skipping optional file movement/gaze_encodings/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:33,548 - INFO - Skipping optional file movement/alignment_translation/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:34,213 - INFO - Skipping optional file movement/alignment_head_rotation/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:34,271 - INFO - Skipping optional file movement/hypernet_features/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:34,799 - INFO - Skipping optional file movement/is_valid/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:34,802 - INFO - Skipping optional file movement/head_encodings/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:34,884 - INFO - Skipping optional file movement/emotion_arousal/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:35,008 - INFO - Skipping optional file movement_v4/gaze_encodings/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:35,369 - INFO - Skipping optional file movement/emotion_scores/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:35,445 - INFO - Skipping optional file movement_v4/alignment_head_rotation/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:35,488 - INFO - Skipping optional file movement_v4/emotion_valence/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:35,565 - INFO - Skipping optional file movement_v4/expression/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:35,942 - INFO - Skipping optional file movement_v4/head_encodings/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:35,973 - INFO - Skipping optional file movement/EmotionArousalToken/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:35,986 - INFO - Skipping optional file movement_v4/alignment_translation/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:36,026 - INFO - Skipping optional file movement_v4/emotion_arousal/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:36,137 - INFO - Skipping optional file movement_v4/frame_latent/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:36,599 - INFO - Skipping optional file movement_v4/FAUToken/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:36,637 - INFO - Skipping optional file movement_v4/emotion_scores/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:36,703 - INFO - Skipping optional file movement_v4/FAUValue/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:36,722 - INFO - Skipping optional file movement_v4/hypernet_features/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:36,856 - INFO - Skipping optional file movement_v4/pred_vertices/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:37,161 - INFO - Skipping optional file annotations/1P-IS/V01_S0172_I00001224_P1316.json
+2026-02-23 16:37:37,382 - INFO - Skipping optional file movement_v4/EmotionValenceToken/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:37,444 - INFO - Skipping optional file movement_v4/is_valid/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:37,444 - INFO - Skipping optional file annotations/3P-R/V01_S0172_I00001224_P1316.json
+2026-02-23 16:37:37,970 - INFO - Skipping optional file annotations/1P-R/V01_S0172_I00001224_P1316.json
+2026-02-23 16:37:38,065 - INFO - Skipping optional file movement_v4/EmotionArousalToken/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:38,156 - INFO - Skipping optional file annotations/3P-V/V01_S0172_I00001224_P1316.json
+2026-02-23 16:37:38,181 - INFO - Skipping optional file movement_v4/is_occluded/V01_S0172_I00001224_P1316.npy
+2026-02-23 16:37:38,599 - INFO - Skipping optional file annotations/3P-IS/V01_S0172_I00001224_P1316.json
+2026-02-23 16:37:40,518 - INFO - Saved 9 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0002/V01_S0172_I00001224_P1316.npz
+2026-02-23 16:37:40,519 - INFO - Successfully processed file V01_S0172_I00001224_P1316 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0002
+2026-02-23 16:37:40,530 - INFO - Found 50 files for V01_S0172_I00001224_P1317
+2026-02-23 16:37:43,525 - INFO - Skipping optional file movement/emotion_valence/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:43,564 - INFO - Skipping optional file movement/FAUToken/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:44,131 - INFO - Skipping optional file movement/EmotionValenceToken/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:44,150 - INFO - Skipping optional file movement/frame_latent/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:44,754 - INFO - Skipping optional file movement/expression/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:44,754 - INFO - Skipping optional file movement/FAUValue/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:45,516 - INFO - Skipping optional file movement/gaze_encodings/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:45,574 - INFO - Skipping optional file movement/alignment_translation/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:46,243 - INFO - Skipping optional file movement/alignment_head_rotation/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:46,251 - INFO - Skipping optional file movement/hypernet_features/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:46,636 - INFO - Skipping optional file movement/is_valid/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:46,835 - INFO - Skipping optional file movement/head_encodings/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:46,861 - INFO - Skipping optional file movement_v4/gaze_encodings/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:46,867 - INFO - Skipping optional file movement/emotion_arousal/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:47,233 - INFO - Skipping optional file movement/emotion_scores/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:47,386 - INFO - Skipping optional file movement/EmotionArousalToken/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:47,407 - INFO - Skipping optional file movement_v4/expression/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:47,459 - INFO - Skipping optional file movement_v4/alignment_head_rotation/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:47,501 - INFO - Skipping optional file movement_v4/emotion_valence/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:47,897 - INFO - Skipping optional file movement_v4/head_encodings/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:48,020 - INFO - Skipping optional file movement_v4/frame_latent/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:48,020 - INFO - Skipping optional file movement_v4/FAUToken/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:48,050 - INFO - Skipping optional file movement_v4/alignment_translation/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:48,073 - INFO - Skipping optional file movement_v4/emotion_arousal/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:48,575 - INFO - Skipping optional file movement_v4/hypernet_features/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:48,640 - INFO - Skipping optional file movement_v4/emotion_scores/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:48,695 - INFO - Skipping optional file movement_v4/FAUValue/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:48,701 - INFO - Skipping optional file movement_v4/pred_vertices/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:48,745 - INFO - Skipping optional file movement_v4/EmotionValenceToken/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:49,353 - INFO - Skipping optional file movement_v4/is_valid/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:49,488 - INFO - Skipping optional file annotations/1P-IS/V01_S0172_I00001224_P1317.json
+2026-02-23 16:37:49,546 - INFO - Skipping optional file annotations/3P-R/V01_S0172_I00001224_P1317.json
+2026-02-23 16:37:49,556 - INFO - Skipping optional file movement_v4/EmotionArousalToken/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:50,086 - INFO - Skipping optional file movement_v4/is_occluded/V01_S0172_I00001224_P1317.npy
+2026-02-23 16:37:50,157 - INFO - Skipping optional file annotations/1P-R/V01_S0172_I00001224_P1317.json
+2026-02-23 16:37:50,236 - INFO - Skipping optional file annotations/3P-V/V01_S0172_I00001224_P1317.json
+2026-02-23 16:37:50,841 - INFO - Skipping optional file annotations/3P-IS/V01_S0172_I00001224_P1317.json
+2026-02-23 16:37:54,282 - INFO - Saved 9 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0028/V01_S0172_I00001224_P1317.npz
+2026-02-23 16:37:54,283 - INFO - Successfully processed file V01_S0172_I00001224_P1317 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0028
+2026-02-23 16:37:54,284 - INFO - Completed downloading batch of 2 files
+2026-02-23 16:38:14,398 - INFO - Loaded filelist with 129370 entries
+2026-02-23 16:38:14,422 - INFO - Downloading batch of 2 files
+2026-02-23 16:38:14,427 - INFO - Found 50 files for V00_S0700_I00000580_P0844A
+2026-02-23 16:38:27,687 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0700_I00000580_P0844A.npy
+2026-02-23 16:38:27,760 - INFO - Skipping optional file annotations/1P-IS/V00_S0700_I00000580_P0844A.json
+2026-02-23 16:38:28,013 - INFO - Skipping optional file annotations/3P-R/V00_S0700_I00000580_P0844A.json
+2026-02-23 16:38:28,321 - INFO - Skipping optional file annotations/1P-R/V00_S0700_I00000580_P0844A.json
+2026-02-23 16:38:28,595 - INFO - Skipping optional file annotations/3P-V/V00_S0700_I00000580_P0844A.json
+2026-02-23 16:38:28,902 - INFO - Skipping optional file annotations/3P-IS/V00_S0700_I00000580_P0844A.json
+2026-02-23 16:38:31,494 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0015/V00_S0700_I00000580_P0844A.npz
+2026-02-23 16:38:31,494 - INFO - Successfully processed file V00_S0700_I00000580_P0844A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0015
+2026-02-23 16:38:31,504 - INFO - Found 50 files for V00_S0700_I00000580_P0852
+2026-02-23 16:39:31,306 - INFO - Loaded filelist with 129370 entries
+2026-02-23 16:39:31,332 - INFO - Downloading batch of 2 files
+2026-02-23 16:39:31,339 - INFO - Found 50 files for V01_S1881_I00000625_P2766
+2026-02-23 16:39:33,824 - INFO - Skipping optional file movement/emotion_valence/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:33,909 - INFO - Skipping optional file movement/FAUToken/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:34,395 - INFO - Skipping optional file movement/EmotionValenceToken/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:34,496 - INFO - Skipping optional file movement/frame_latent/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:35,052 - INFO - Skipping optional file movement/expression/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:35,085 - INFO - Skipping optional file movement/FAUValue/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:35,832 - INFO - Skipping optional file movement/gaze_encodings/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:35,899 - INFO - Skipping optional file movement/alignment_translation/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:36,587 - INFO - Skipping optional file movement/alignment_head_rotation/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:36,661 - INFO - Skipping optional file movement/hypernet_features/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:37,019 - INFO - Skipping optional file movement/is_valid/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:37,144 - INFO - Skipping optional file movement/head_encodings/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:37,231 - INFO - Skipping optional file movement/emotion_arousal/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:37,239 - INFO - Skipping optional file movement_v4/gaze_encodings/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:37,532 - INFO - Skipping optional file movement/EmotionArousalToken/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:37,600 - INFO - Skipping optional file movement/emotion_scores/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:37,784 - INFO - Skipping optional file movement_v4/expression/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:37,798 - INFO - Skipping optional file movement_v4/alignment_head_rotation/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:37,847 - INFO - Skipping optional file movement_v4/emotion_valence/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:38,207 - INFO - Skipping optional file movement_v4/head_encodings/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:38,247 - INFO - Skipping optional file movement_v4/FAUToken/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:38,428 - INFO - Skipping optional file movement_v4/frame_latent/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:38,474 - INFO - Skipping optional file movement_v4/alignment_translation/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:38,481 - INFO - Skipping optional file movement_v4/emotion_arousal/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:38,965 - INFO - Skipping optional file movement_v4/EmotionValenceToken/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:39,035 - INFO - Skipping optional file movement_v4/hypernet_features/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:39,198 - INFO - Skipping optional file movement_v4/emotion_scores/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:39,202 - INFO - Skipping optional file movement_v4/FAUValue/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:39,207 - INFO - Skipping optional file movement_v4/pred_vertices/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:39,653 - INFO - Skipping optional file movement_v4/EmotionArousalToken/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:39,695 - INFO - Skipping optional file movement_v4/is_valid/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:39,918 - INFO - Skipping optional file annotations/1P-IS/V01_S1881_I00000625_P2766.json
+2026-02-23 16:39:40,029 - INFO - Skipping optional file annotations/3P-R/V01_S1881_I00000625_P2766.json
+2026-02-23 16:39:40,306 - INFO - Skipping optional file movement_v4/is_occluded/V01_S1881_I00000625_P2766.npy
+2026-02-23 16:39:40,591 - INFO - Skipping optional file annotations/1P-R/V01_S1881_I00000625_P2766.json
+2026-02-23 16:39:40,756 - INFO - Skipping optional file annotations/3P-V/V01_S1881_I00000625_P2766.json
+2026-02-23 16:39:41,155 - INFO - Skipping optional file annotations/3P-IS/V01_S1881_I00000625_P2766.json
+2026-02-23 16:40:00,401 - INFO - Loaded filelist with 129370 entries
+2026-02-23 16:40:00,424 - INFO - Downloading batch of 2 files
+2026-02-23 16:40:00,430 - INFO - Found 50 files for V00_S2020_I00000686_P1276A
+2026-02-23 16:40:12,148 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S2020_I00000686_P1276A.npy
+2026-02-23 16:40:12,752 - INFO - Skipping optional file annotations/1P-IS/V00_S2020_I00000686_P1276A.json
+2026-02-23 16:40:12,896 - INFO - Skipping optional file annotations/3P-R/V00_S2020_I00000686_P1276A.json
+2026-02-23 16:40:13,399 - INFO - Skipping optional file annotations/1P-R/V00_S2020_I00000686_P1276A.json
+2026-02-23 16:40:13,592 - INFO - Skipping optional file annotations/3P-V/V00_S2020_I00000686_P1276A.json
+2026-02-23 16:40:14,065 - INFO - Skipping optional file annotations/3P-IS/V00_S2020_I00000686_P1276A.json
+2026-02-23 16:40:15,031 - INFO - Skipping optional file movement_v4/is_occluded/V00_S2020_I00000686_P1276A.npy
+2026-02-23 16:40:15,298 - INFO - Saved 39 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0032/V00_S2020_I00000686_P1276A.npz
+2026-02-23 16:40:15,298 - INFO - Successfully processed file V00_S2020_I00000686_P1276A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0032
+2026-02-23 16:40:15,307 - INFO - Found 50 files for V00_S2020_I00000686_P1275A
+2026-02-23 16:40:28,333 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S2020_I00000686_P1275A.npy
+2026-02-23 16:40:28,579 - INFO - Skipping optional file annotations/1P-IS/V00_S2020_I00000686_P1275A.json
+2026-02-23 16:40:28,649 - INFO - Skipping optional file annotations/3P-R/V00_S2020_I00000686_P1275A.json
+2026-02-23 16:40:29,157 - INFO - Skipping optional file annotations/1P-R/V00_S2020_I00000686_P1275A.json
+2026-02-23 16:40:29,232 - INFO - Skipping optional file annotations/3P-V/V00_S2020_I00000686_P1275A.json
+2026-02-23 16:40:29,765 - INFO - Skipping optional file annotations/3P-IS/V00_S2020_I00000686_P1275A.json
+2026-02-23 16:40:31,625 - INFO - Skipping optional file movement_v4/is_occluded/V00_S2020_I00000686_P1275A.npy
+2026-02-23 16:40:31,880 - INFO - Saved 39 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0038/V00_S2020_I00000686_P1275A.npz
+2026-02-23 16:40:31,880 - INFO - Successfully processed file V00_S2020_I00000686_P1275A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0038
+2026-02-23 16:40:31,882 - INFO - Completed downloading batch of 2 files
