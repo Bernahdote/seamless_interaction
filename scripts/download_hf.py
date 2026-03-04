@@ -120,6 +120,88 @@ def download_whole_dataset():
     print("✅ Downloaded complete dataset (~27TB)")
 
 
+
+
+def download_balanced():
+    """
+    Minimal hardcoded flow:
+    - has_imitator_movement == 1
+    - train limited to batches 0..19
+    - dev/test included
+    - keep only complete interactions (both participants)
+    - balance 50/50 improvised vs naturalistic per split
+    - download required HF archives via fs.download_batch_from_hf
+    """
+    import pandas as pd
+
+    seed = 42
+    df = pd.read_csv("assets/filelist.csv")
+
+    # Scope + validity filter
+    df = df[
+        (
+            ((df["split"] == "train") & (df["batch_idx"] < 10))
+            | (df["split"].isin(["dev", "test"]))
+        )
+        & (df["has_imitator_movement"] == 1)
+    ].copy()
+
+    # Interaction id + keep only complete interactions (>=2 participants)
+    df["interaction_id"] = df["file_id"].str.replace(r"_P[0-9A-Za-z]+$", "", regex=True)
+    complete = (
+        df.groupby(["label", "split", "interaction_id"])["file_id"]
+        .nunique()
+        .reset_index(name="n")
+    )
+    complete = complete[complete["n"] >= 2][["label", "split", "interaction_id"]]
+    df = df.merge(complete, on=["label", "split", "interaction_id"], how="inner")
+
+    # 50/50 balance per split at interaction level
+    picks = []
+    for split in ["train", "dev", "test"]:
+        imp = (
+            df[(df["split"] == split) & (df["label"] == "improvised")]["interaction_id"]
+            .drop_duplicates()
+            .sample(frac=1, random_state=seed)
+            .tolist()
+        )
+        nat = (
+            df[(df["split"] == split) & (df["label"] == "naturalistic")]["interaction_id"]
+            .drop_duplicates()
+            .sample(frac=1, random_state=seed)
+            .tolist()
+        )
+        n = min(len(imp), len(nat))
+        picks.append(pd.DataFrame({"split": split, "label": "improvised", "interaction_id": imp[:n]}))
+        picks.append(pd.DataFrame({"split": split, "label": "naturalistic", "interaction_id": nat[:n]}))
+
+    picked = pd.concat(picks, ignore_index=True)
+    final_df = df.merge(picked, on=["split", "label", "interaction_id"], how="inner")
+
+    # Download only needed archives
+    plan = (
+        final_df[["label", "split", "batch_idx", "archive_idx"]]
+        .drop_duplicates()
+        .sort_values(["label", "split", "batch_idx", "archive_idx"])
+    )
+
+    for label in ["improvised", "naturalistic"]:
+        fs = SeamlessInteractionFS(
+            config=DatasetConfig(label=label, preferred_vendors_only=False, num_workers=8)
+        )
+        sub = plan[plan["label"] == label]
+        for split in ["train", "dev", "test"]:
+            sub_split = sub[sub["split"] == split]
+            for batch_idx, group in sub_split.groupby("batch_idx"):
+                fs.download_batch_from_hf(
+                    split=split,
+                    batch_idx=int(batch_idx),
+                    archive_list=sorted(group["archive_idx"].astype(int).tolist()),
+                )
+
+
+
+
 def main():
     """
     Demonstrate HuggingFace-based flexible download options.
@@ -134,9 +216,10 @@ def main():
     # Uncomment desired download scenario:
     #download_1gb_sample_archive()
     # download_single_batch()
-    download_multiple_batches()
+    # download_multiple_batches()
     # download_different_splits()
     # download_whole_dataset()  # ⚠️ CAUTION: Very large!
+    download_balanced()  # Balanced subset with specific criteria
 
 
 if __name__ == "__main__":

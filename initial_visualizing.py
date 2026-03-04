@@ -23,8 +23,6 @@ gaze = data[gaze_key]  # (N, 2): pitch, yaw
 head = data[head_key]  # (N, 3): pitch, yaw, roll
 gaze_deg = np.degrees(gaze)
 head_deg = np.degrees(head)
-combined_pitch_deg = head_deg[:, 0] + gaze_deg[:, 0]
-combined_yaw_deg = head_deg[:, 1] + gaze_deg[:, 1]
 
 t = np.arange(gaze_deg.shape[0]) / fps
 pitch_min, pitch_max = gaze_deg[:, 0].min(), gaze_deg[:, 0].max()
@@ -53,40 +51,44 @@ fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 8), sharex=True)
 
 ax1.plot(t, gaze_deg[:, 0], label="pitch (deg)")
 ax1.plot(t, gaze_deg[:, 1], label="yaw (deg)")
+ax1.axhline(
+    gaze_deg[:, 0].mean(),
+    linestyle="--",
+    linewidth=1,
+    alpha=0.8,
+    label=f"pitch mean ({gaze_deg[:, 0].mean():.2f})",
+)
+ax1.axhline(
+    gaze_deg[:, 1].mean(),
+    linestyle="--",
+    linewidth=1,
+    alpha=0.8,
+    label=f"yaw mean ({gaze_deg[:, 1].mean():.2f})",
+)
 ax1.set_title("Eye Gaze (Degrees)")
 ax1.set_ylabel("Degrees")
 ax1.legend()
 
 ax2.plot(t, head_deg[:, 0], label="pitch (deg)")
 ax2.plot(t, head_deg[:, 1], label="yaw (deg)")
+ax2.axhline(
+    head_deg[:, 0].mean(),
+    linestyle="--",
+    linewidth=1,
+    alpha=0.8,
+    label=f"pitch mean ({head_deg[:, 0].mean():.2f})",
+)
+ax2.axhline(
+    head_deg[:, 1].mean(),
+    linestyle="--",
+    linewidth=1,
+    alpha=0.8,
+    label=f"yaw mean ({head_deg[:, 1].mean():.2f})",
+)
 ax2.set_title("Head Rotation (Degrees)")
 ax2.set_xlabel("Seconds")
 ax2.set_ylabel("Degrees")
 ax2.legend()
 
-plt.tight_layout()
-plt.show()
-
-plt.figure(figsize=(12, 4))
-plt.plot(t, combined_pitch_deg, label="pitch (head + gaze)")
-plt.plot(t, combined_yaw_deg, label="yaw (head + gaze)")
-plt.axhline(
-    combined_pitch_deg.mean(),
-    linestyle="--",
-    linewidth=1,
-    alpha=0.8,
-    label=f"pitch mean ({combined_pitch_deg.mean():.2f})",
-)
-plt.axhline(
-    combined_yaw_deg.mean(),
-    linestyle="--",
-    linewidth=1,
-    alpha=0.8,
-    label=f"yaw mean ({combined_yaw_deg.mean():.2f})",
-)
-plt.title("Combined Rotation Approximation (Degrees)")
-plt.xlabel("Seconds")
-plt.ylabel("Degrees")
-plt.legend()
 plt.tight_layout()
 plt.show()
