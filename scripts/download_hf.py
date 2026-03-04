@@ -172,6 +172,8 @@ def download_balanced():
             .tolist()
         )
         n = min(len(imp), len(nat))
+        if split == "train":
+            n = min(n, 1700)
         picks.append(pd.DataFrame({"split": split, "label": "improvised", "interaction_id": imp[:n]}))
         picks.append(pd.DataFrame({"split": split, "label": "naturalistic", "interaction_id": nat[:n]}))
 
