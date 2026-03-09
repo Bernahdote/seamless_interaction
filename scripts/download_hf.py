@@ -126,10 +126,9 @@ def download_balanced():
     """
     Minimal hardcoded flow:
     - has_imitator_movement == 1
-    - train limited to batches 0..19
-    - dev/test included
+    - train only, limited to batches 1..15
     - keep only complete interactions (both participants)
-    - balance 50/50 improvised vs naturalistic per split
+    - balance 50/50 improvised vs naturalistic
     - download required HF archives via fs.download_batch_from_hf
     """
     import pandas as pd
@@ -139,10 +138,9 @@ def download_balanced():
 
     # Scope + validity filter
     df = df[
-        (
-            ((df["split"] == "train") & (df["batch_idx"] < 10))
-            | (df["split"].isin(["dev", "test"]))
-        )
+        (df["split"] == "train")
+        & (df["batch_idx"] >= 0)
+        & (df["batch_idx"] <= 14)
         & (df["has_imitator_movement"] == 1)
     ].copy()
 
@@ -158,7 +156,7 @@ def download_balanced():
 
     # 50/50 balance per split at interaction level
     picks = []
-    for split in ["train", "dev", "test"]:
+    for split in ["train"]:
         imp = (
             df[(df["split"] == split) & (df["label"] == "improvised")]["interaction_id"]
             .drop_duplicates()
@@ -172,8 +170,6 @@ def download_balanced():
             .tolist()
         )
         n = min(len(imp), len(nat))
-        if split == "train":
-            n = min(n, 1700)
         picks.append(pd.DataFrame({"split": split, "label": "improvised", "interaction_id": imp[:n]}))
         picks.append(pd.DataFrame({"split": split, "label": "naturalistic", "interaction_id": nat[:n]}))
 
@@ -192,7 +188,7 @@ def download_balanced():
             config=DatasetConfig(label=label, preferred_vendors_only=False, num_workers=8)
         )
         sub = plan[plan["label"] == label]
-        for split in ["train", "dev", "test"]:
+        for split in ["train"]:
             sub_split = sub[sub["split"] == split]
             for batch_idx, group in sub_split.groupby("batch_idx"):
                 fs.download_batch_from_hf(
