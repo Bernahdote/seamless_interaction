@@ -868,6 +868,11 @@ class SeamlessInteractionFS:
         os.makedirs(local_archive_dir, exist_ok=True)
         local_tar_path = os.path.join(local_archive_dir, f"{archive:04d}.tar")
 
+        extract_dir = os.path.join(local_archive_dir, f"{archive:04d}")
+        if extract and os.path.exists(extract_dir):
+            logger.info(f"Archive already extracted, skipping download: {extract_dir}")
+            return True, extract_dir
+
         if os.path.exists(local_tar_path):
             logger.info(f"Archive already exists: {local_tar_path}")
         else:
