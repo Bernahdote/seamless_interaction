@@ -50,8 +50,8 @@ class DatasetConfig:
         if self.num_workers is None:
             self.num_workers = min(10, max(1, os.cpu_count() - 2))
         if self.local_dir is None:
-            #self.local_dir = str(Path.home() / "datasets" / "seamless_interaction") # WB -- for mac 
-            self.local_dir = "/mnt/sda/willem/datasets/seamless_interaction" #WB -- for remote1
+            self.local_dir = str(Path.home() / "datasets" / "seamless_interaction") # WB -- for mac 
+            #self.local_dir = "/mnt/sda/willem/datasets/seamless_interaction" #WB -- for remote1
 
 
 @dataclass

@@ -140,7 +140,7 @@ def download_balanced():
     df = df[
         (df["split"] == "train")
         & (df["batch_idx"] >= 0)
-        & (df["batch_idx"] <= 14)
+        & (df["batch_idx"] <= 29)
         & (df["has_imitator_movement"] == 1)
     ].copy()
 

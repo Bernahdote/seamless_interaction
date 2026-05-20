@@ -1129,3 +1129,98 @@
 2026-02-23 16:40:31,880 - INFO - Saved 39 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0038/V00_S2020_I00000686_P1275A.npz
 2026-02-23 16:40:31,880 - INFO - Successfully processed file V00_S2020_I00000686_P1275A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0038
 2026-02-23 16:40:31,882 - INFO - Completed downloading batch of 2 files
+2026-03-10 11:11:16,661 - ERROR - Failed to create local directory: [Errno 1] Operation not permitted: '/mnt'
+2026-03-10 11:11:35,743 - INFO - Loaded filelist with 129370 entries
+2026-03-10 11:11:35,761 - INFO - Downloading batch of 2 files
+2026-03-10 11:11:35,765 - INFO - Found 50 files for V00_S0925_I00000479_P0816
+2026-03-10 11:14:02,503 - INFO - Loaded filelist with 129370 entries
+2026-03-10 11:14:02,537 - INFO - Downloading batch of 2 files
+2026-03-10 11:14:02,547 - INFO - Found 50 files for V01_S0172_I00001295_P1317
+2026-03-10 11:25:39,161 - INFO - Loaded filelist with 129370 entries
+2026-03-10 11:25:39,188 - INFO - Downloading batch of 2 files
+2026-03-10 11:25:39,193 - INFO - Found 50 files for V00_S2090_I00001009_P1347A
+2026-03-10 11:25:52,288 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S2090_I00001009_P1347A.npy
+2026-03-10 11:25:52,599 - INFO - Skipping optional file annotations/1P-IS/V00_S2090_I00001009_P1347A.json
+2026-03-10 11:25:52,948 - INFO - Skipping optional file annotations/3P-R/V00_S2090_I00001009_P1347A.json
+2026-03-10 11:25:53,222 - INFO - Skipping optional file annotations/1P-R/V00_S2090_I00001009_P1347A.json
+2026-03-10 11:25:53,547 - INFO - Skipping optional file annotations/3P-V/V00_S2090_I00001009_P1347A.json
+2026-03-10 11:25:53,833 - INFO - Skipping optional file annotations/3P-IS/V00_S2090_I00001009_P1347A.json
+2026-03-10 11:25:57,028 - INFO - Skipping optional file movement_v4/is_occluded/V00_S2090_I00001009_P1347A.npy
+2026-03-10 11:25:57,347 - INFO - Saved 39 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0007/V00_S2090_I00001009_P1347A.npz
+2026-03-10 11:25:57,347 - INFO - Successfully processed file V00_S2090_I00001009_P1347A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0007
+2026-03-10 11:25:57,382 - INFO - Found 50 files for V00_S2090_I00001009_P1346A
+2026-03-10 11:26:10,765 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S2090_I00001009_P1346A.npy
+2026-03-10 11:26:11,123 - INFO - Skipping optional file annotations/1P-IS/V00_S2090_I00001009_P1346A.json
+2026-03-10 11:26:11,430 - INFO - Skipping optional file annotations/3P-R/V00_S2090_I00001009_P1346A.json
+2026-03-10 11:26:11,751 - INFO - Skipping optional file annotations/1P-R/V00_S2090_I00001009_P1346A.json
+2026-03-10 11:26:12,006 - INFO - Skipping optional file annotations/3P-V/V00_S2090_I00001009_P1346A.json
+2026-03-10 11:26:12,326 - INFO - Skipping optional file annotations/3P-IS/V00_S2090_I00001009_P1346A.json
+2026-03-10 11:26:14,770 - INFO - Skipping optional file movement_v4/is_occluded/V00_S2090_I00001009_P1346A.npy
+2026-03-10 11:26:15,158 - INFO - Saved 39 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0035/V00_S2090_I00001009_P1346A.npz
+2026-03-10 11:26:15,159 - INFO - Successfully processed file V00_S2090_I00001009_P1346A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0035
+2026-03-10 11:26:15,160 - INFO - Completed downloading batch of 2 files
+2026-03-10 14:35:40,922 - INFO - Loaded filelist with 129370 entries
+2026-03-10 14:35:40,950 - INFO - Downloading batch of 2 files
+2026-03-10 14:35:40,956 - INFO - Found 50 files for V00_S0696_I00000542_P0847
+2026-03-10 14:35:51,276 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0696_I00000542_P0847.npy
+2026-03-10 14:35:51,575 - INFO - Skipping optional file annotations/1P-IS/V00_S0696_I00000542_P0847.json
+2026-03-10 14:35:51,930 - INFO - Skipping optional file annotations/3P-R/V00_S0696_I00000542_P0847.json
+2026-03-10 14:35:52,185 - INFO - Skipping optional file annotations/1P-R/V00_S0696_I00000542_P0847.json
+2026-03-10 14:35:52,552 - INFO - Skipping optional file annotations/3P-V/V00_S0696_I00000542_P0847.json
+2026-03-10 14:35:52,909 - INFO - Skipping optional file annotations/3P-IS/V00_S0696_I00000542_P0847.json
+2026-03-10 14:35:54,321 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0001/V00_S0696_I00000542_P0847.npz
+2026-03-10 14:35:54,325 - INFO - Successfully processed file V00_S0696_I00000542_P0847 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0001
+2026-03-10 14:35:54,369 - INFO - Found 50 files for V00_S0696_I00000542_P0844A
+2026-03-10 14:36:05,674 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0696_I00000542_P0844A.npy
+2026-03-10 14:36:05,995 - INFO - Skipping optional file annotations/1P-IS/V00_S0696_I00000542_P0844A.json
+2026-03-10 14:36:06,405 - INFO - Skipping optional file annotations/3P-R/V00_S0696_I00000542_P0844A.json
+2026-03-10 14:36:06,624 - INFO - Skipping optional file annotations/1P-R/V00_S0696_I00000542_P0844A.json
+2026-03-10 14:36:07,096 - INFO - Skipping optional file annotations/3P-V/V00_S0696_I00000542_P0844A.json
+2026-03-10 14:36:07,205 - INFO - Skipping optional file annotations/3P-IS/V00_S0696_I00000542_P0844A.json
+2026-03-10 14:36:08,373 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0031/V00_S0696_I00000542_P0844A.npz
+2026-03-10 14:36:08,373 - INFO - Successfully processed file V00_S0696_I00000542_P0844A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0031
+2026-03-10 14:36:08,374 - INFO - Completed downloading batch of 2 files
+2026-03-10 16:14:10,022 - INFO - Loaded filelist with 129370 entries
+2026-03-10 16:14:10,041 - INFO - Downloading batch of 2 files
+2026-03-10 16:14:10,045 - INFO - Found 50 files for V00_S0692_I00000479_P0845
+2026-03-10 16:14:26,772 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0692_I00000479_P0845.npy
+2026-03-10 16:14:27,035 - INFO - Skipping optional file annotations/1P-IS/V00_S0692_I00000479_P0845.json
+2026-03-10 16:14:27,080 - INFO - Skipping optional file annotations/3P-R/V00_S0692_I00000479_P0845.json
+2026-03-10 16:14:27,771 - INFO - Skipping optional file annotations/1P-R/V00_S0692_I00000479_P0845.json
+2026-03-10 16:14:27,808 - INFO - Skipping optional file annotations/3P-V/V00_S0692_I00000479_P0845.json
+2026-03-10 16:14:28,462 - INFO - Skipping optional file annotations/3P-IS/V00_S0692_I00000479_P0845.json
+2026-03-10 16:14:31,821 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0001/V00_S0692_I00000479_P0845.npz
+2026-03-10 16:14:31,822 - INFO - Successfully processed file V00_S0692_I00000479_P0845 to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0001
+2026-03-10 16:14:31,841 - INFO - Found 50 files for V00_S0692_I00000479_P0844A
+2026-03-10 16:14:47,245 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S0692_I00000479_P0844A.npy
+2026-03-10 16:14:47,427 - INFO - Skipping optional file annotations/1P-IS/V00_S0692_I00000479_P0844A.json
+2026-03-10 16:14:47,445 - INFO - Skipping optional file annotations/3P-R/V00_S0692_I00000479_P0844A.json
+2026-03-10 16:14:48,061 - INFO - Skipping optional file annotations/1P-R/V00_S0692_I00000479_P0844A.json
+2026-03-10 16:14:48,075 - INFO - Skipping optional file annotations/3P-V/V00_S0692_I00000479_P0844A.json
+2026-03-10 16:14:48,816 - INFO - Skipping optional file annotations/3P-IS/V00_S0692_I00000479_P0844A.json
+2026-03-10 16:14:54,945 - INFO - Saved 40 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0011/V00_S0692_I00000479_P0844A.npz
+2026-03-10 16:14:54,945 - INFO - Successfully processed file V00_S0692_I00000479_P0844A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0011
+2026-03-10 16:14:54,947 - INFO - Completed downloading batch of 2 files
+2026-03-10 16:42:31,631 - INFO - Loaded filelist with 129370 entries
+2026-03-10 16:42:31,651 - INFO - Downloading batch of 2 files
+2026-03-10 16:42:31,654 - INFO - Found 50 files for V00_S2025_I00001079_P1281A
+2026-03-10 16:42:45,211 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S2025_I00001079_P1281A.npy
+2026-03-10 16:42:45,769 - INFO - Skipping optional file annotations/1P-IS/V00_S2025_I00001079_P1281A.json
+2026-03-10 16:42:46,218 - INFO - Skipping optional file annotations/3P-R/V00_S2025_I00001079_P1281A.json
+2026-03-10 16:42:46,684 - INFO - Skipping optional file annotations/1P-R/V00_S2025_I00001079_P1281A.json
+2026-03-10 16:42:46,992 - INFO - Skipping optional file annotations/3P-V/V00_S2025_I00001079_P1281A.json
+2026-03-10 16:42:47,523 - INFO - Skipping optional file annotations/3P-IS/V00_S2025_I00001079_P1281A.json
+2026-03-10 16:42:50,572 - INFO - Skipping optional file movement_v4/is_occluded/V00_S2025_I00001079_P1281A.npy
+2026-03-10 16:42:53,204 - INFO - Saved 39 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0010/V00_S2025_I00001079_P1281A.npz
+2026-03-10 16:42:53,205 - INFO - Successfully processed file V00_S2025_I00001079_P1281A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0010
+2026-03-10 16:42:53,239 - INFO - Found 50 files for V00_S2025_I00001079_P1282A
+2026-03-10 16:43:09,535 - INFO - Skipping optional file movement_v4/pred_vertices/V00_S2025_I00001079_P1282A.npy
+2026-03-10 16:43:09,613 - INFO - Skipping optional file annotations/1P-IS/V00_S2025_I00001079_P1282A.json
+2026-03-10 16:43:10,176 - INFO - Skipping optional file annotations/3P-R/V00_S2025_I00001079_P1282A.json
+2026-03-10 16:43:10,288 - INFO - Skipping optional file annotations/1P-R/V00_S2025_I00001079_P1282A.json
+2026-03-10 16:43:11,040 - INFO - Skipping optional file annotations/3P-V/V00_S2025_I00001079_P1282A.json
+2026-03-10 16:43:11,098 - INFO - Skipping optional file annotations/3P-IS/V00_S2025_I00001079_P1282A.json
+2026-03-10 16:43:14,627 - INFO - Skipping optional file movement_v4/is_occluded/V00_S2025_I00001079_P1282A.npy
+2026-03-10 16:43:15,716 - INFO - Saved 39 numpy arrays to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0051/V00_S2025_I00001079_P1282A.npz
+2026-03-10 16:43:15,717 - INFO - Successfully processed file V00_S2025_I00001079_P1282A to /Users/willemberner/datasets/seamless_interaction/improvised/dev/0000/0051
+2026-03-10 16:43:15,718 - INFO - Completed downloading batch of 2 files
