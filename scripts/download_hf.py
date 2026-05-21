@@ -140,7 +140,7 @@ def download_balanced():
     df = df[
         (df["split"] == "train")
         & (df["batch_idx"] >= 0)
-        & (df["batch_idx"] <= 15)  # Pass 1: batches 0-15. After download, prune (delete MP4s + resample), then change back to 29 for pass 2.
+        & (df["batch_idx"] <= 29)
         & (df["has_imitator_movement"] == 1)
     ].copy()
 
